@@ -103,7 +103,7 @@ class FudePolygonProcessor:
         self.save_data()
 
 # 実行例
-input_path = "../data/input/2024_08/2024_082015.json"
-output_path = "../data/output/processed_fudepolygon.geojson"
+input_path = "../../data/raw/fude_polygon/2024_08/2024_082015.json"
+output_path = "../../data/processed/fude_polygon/processed_fude_polygon.geojson"
 processor = FudePolygonProcessor(input_path, output_path)
 processor.process()

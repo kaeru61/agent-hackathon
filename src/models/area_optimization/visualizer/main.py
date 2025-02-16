@@ -107,7 +107,7 @@ class GeoJsonVisualizer:
         print(f"Empty map saved as {output_file}")
 
 if __name__ == "__main__":
-    geojson_file = "../data/output/processed_fudepolygon.geojson"
+    geojson_file = "../data/processed/fude_polygon/processed_fude_polygon.geojson"
     output_path = "../visualizer/output/"
     visualizer = GeoJsonVisualizer(geojson_file, map_location=[36.3418, 140.4468], zoom_start=10)
 
