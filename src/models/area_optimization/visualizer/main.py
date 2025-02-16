@@ -107,14 +107,15 @@ class GeoJsonVisualizer:
         print(f"Empty map saved as {output_file}")
 
 if __name__ == "__main__":
-    geojson_file = "../data/output/processed_fudepolygon.geojson" 
+    geojson_file = "../data/output/processed_fudepolygon.geojson"
+    output_path = "../visualizer/output/"
     visualizer = GeoJsonVisualizer(geojson_file, map_location=[36.3418, 140.4468], zoom_start=10)
-    
+
     # GeoJSONの内容を反映した地図を表示（基本の可視化）
-    visualizer.visualize("my_map.html")
-    
+    visualizer.visualize(output_path+"my_map.html")
+
     # マーカークラスターを含む地図の可視化
-    visualizer.visualize_with_clusters("my_map_with_clusters.html")
-    
+    visualizer.visualize_with_clusters(output_path+"my_map_with_clusters.html")
+
     # 何も加えていない空の地図を表示
-    visualizer.visualize_empty_map("empty_map.html")
+    visualizer.visualize_empty_map(output_path+"empty_map.html")
