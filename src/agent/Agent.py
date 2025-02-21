@@ -1,98 +1,71 @@
-from typing import Dict, List
-from langchain_core.prompts import PromptTemplate
-from langchain_google_genai import ChatGoogleGenerativeAI
-from dataclasses import dataclass
-import os
+from typing import Any, Dict, Union
 
-os.environ["GEMINI"] = "path/to/your/credentials.json"
+from langgraph.checkpoint.memory import MemorySaver
 
-@dataclass
-class VegetableAgent:
-    name: str
-    personality: str
-    related_dishes: List[str]
-    
-    # 食材が含まれる料理データを内部に移動
-    _INGREDIENT_TO_DISHES: Dict[str, List[str]] = {
-        "トマト": ["スパゲッティ", "サラダ"],
-        "にんじん": ["カレー", "シチュー"],
-        "チーズ": ["ピザ", "グラタン"],
-        "唐辛子": ["麻婆豆腐", "チリコンカン"],
-        "豆腐": ["味噌汁", "麻婆豆腐"]
-    }
-    
-    def get_state(self) -> Dict[str, any]:
-        """
-        エージェントの現在の状態を取得する
+from agent.graph import GraphBuilder
+from agent.node import Node
+from agent.state import State
 
-        Returns:
-            Dict[str, any]: エージェントの状態を表す辞書
-        """
-        return {
-            "name": self.name,
-            "personality": self.personality,
-            "related_dishes": self.related_dishes
-        }
 
-    @classmethod
-    def create_vegetable_agents(cls, inputs: Dict[str, any]) -> 'VegetableAgent':
-        """
-        食材情報をもとにエージェントを生成する
+class Agent:
+    def __init__(
+        self,
+    ) -> None:
+        # ================
+        # constructor
+        # ================
+        graph_builder = GraphBuilder(State)
+        self.node = Node()
 
-        Args:
-            inputs (Dict[str, any]): 生成に必要な入力情報
-                - personality: エージェントの性格
-                - dishes: 関連する料理のリスト
-
-        Returns:
-            VegetableAgent: 生成されたエージェントインスタンス
-        """
-        personality = inputs["personality"]
-        dishes = inputs["dishes"]
-        name = next((ingredient for ingredient, dish_list in cls._INGREDIENT_TO_DISHES.items() 
-                    if any(d in dishes for d in dish_list)), "Unknown")
+        # ================
+        # Build Graph
+        # ================
+        # Add nodes
+        graph_builder.add_node(self.node.generate_message)
+        graph_builder.add_node(self.node.end)
         
-        return cls(
-            name=name,
-            personality=personality,
-            related_dishes=dishes
+
+        # Add edges
+        graph_builder.add_edge(self.node.generate_message, self.node.end)
+
+        
+
+        # Set entry and finish point
+        graph_builder.set_entry_point(self.node.generate_message)
+        graph_builder.set_finish_point(self.node.end)
+
+        # Set up memory
+        self.memory = MemorySaver()
+
+        self.graph = graph_builder.work_flow.compile(
+            checkpointer=self.memory,
         )
 
-# LangGraphのノード定義
-def ingredient_analysis(ingredients):
-    """食材から基本性格を取得（LLMを使用）"""
-    personality = {}
-    llm = ChatGoogleGenerativeAI(model="gemini-pro")
-    for i in ingredients:
-        prompt = PromptTemplate(template="""
-                                あなたは野菜の性格を想像するエージェントです。
-                                その野菜の栄養素などをもとにして
-                                {ingredient}の性格を形容してください。
-                                """, input_variables=["ingredient"])
-        personality[i] = llm(prompt.format(ingredient=i))
-    return {"personality": personality}
+        # ================
+        # write mermaid
+        # ================
+        with open("graph.md", "w") as file:
+            file.write(f"```mermaid\n{self.graph.get_graph().draw_mermaid()}```")
 
-def dish_analysis(ingredients):
-    """食材に基づいて関連する料理を取得"""
-    dishes = {i: VegetableAgent._INGREDIENT_TO_DISHES.get(i, []) for i in ingredients}
-    return {"dishes": dishes}
+    # ================
+    # Helper
+    # ================
+    def is_start_node(self, thread: dict) -> bool:
+        return self.graph.get_state(thread).created_at is None
 
-# LangGraphのワークフロー定義
-graph = langgraph.Graph()
-graph.add_node("ingredient_analysis", ingredient_analysis)
-graph.add_node("dish_analysis", dish_analysis)
-graph.add_node("create_vegetable_agents", VegetableAgent.create_vegetable_agents)
+    def is_end_node(self, thread: dict) -> bool:
+        return self.get_state_value(thread, "is_finished")
 
-graph.set_entry_point("ingredient_analysis")
-graph.add_edge("ingredient_analysis", "dish_analysis")
-graph.add_edge("dish_analysis", "create_vegetable_agents")
+    def get_next_node(self, thread: dict) -> tuple[str, ...]:
+        return self.graph.get_state(thread).next
 
-workflow = graph.compile()
-
-# テスト実行
-test_ingredients = ["トマト", "にんじん", "唐辛子"]
-result = workflow.invoke(test_ingredients)
-
-# 生成されたエージェントの情報を表示
-for agent in result["agents"]:
-    print(agent.get_state())
+    def get_state_value(
+        self, thread: dict, name: str
+    ) -> Union[dict[str, Any], Any, None]:
+        print("Thread: ", thread)
+        print("Name: ", name)
+        state = self.graph.get_state(thread)
+        if state and name in state.values:
+            return state.values.get(name)
+        return None
+    
