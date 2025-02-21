@@ -1,56 +1,39 @@
+import sys
+import os
+
+# srcディレクトリをPythonのパスに追加
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..', 'src')))
+
 import streamlit as st
+from dotenv import load_dotenv
 from components.map_component import MapComponent, create_map_container
 from components.chat_component import ChatComponent
 from components.chart_component import ChartComponent
+from agent.llm.llm import get_llm_model
+from agent.agent import Agent
+
+import getpass
+
+load_dotenv()
 
 def generate_answer(prompt):
-    response = """
-    # 農地データの更新完了
-
-    ## 編集内容
-    農地ID: `AG-2024-0123`の境界データを更新しました。
-
-    ### 位置情報
-    ```json
-    {
-        "center": [36.3418, 140.4468],
-        "bounds": {
-            "north": 36.3428,
-            "south": 36.3408,
-            "east": 140.4478,
-            "west": 140.4458
+    """質問に対する回答を生成"""
+    agent = Agent()
+    initial_input = {
+        "prompt": prompt,
+        "model": get_llm_model(),
+        "messages": []
+    }
+    thread_config = {
+        "configurable": {
+            "thread_id": "1",  # 一意のスレッドID
+            "checkpoint_ns": "chat",  # チェックポイントの名前空間
+            "checkpoint_id": "1"  # チェックポイントID
         }
     }
-    ```
-
-    ### 更新された農地情報
-    | 項目 | 値 |
-    |------|-----|
-    | 面積 | 2,500㎡ |
-    | 周長 | 200m |
-    | 区画形状 | 不整形 |
-
-    ## 変更の詳細
-    ✅ 北西角の座標を修正（ドローンデータに基づく補正）
-    ✅ 境界線の精度を向上（誤差: 0.5m以内）
-
-    ## 注意事項
-    ⚠️ 以下の点に注意が必要です：
-    - 北側に隣接する農地（ID: `AG-2024-0124`）と微小な重複（2㎡）があります
-    - 南東の境界線が若干不明瞭です（植生による遮蔽）
-
-    ## 推奨アクション
-    1. 隣接農地との境界確認
-    2. 春季に南東部の再測量を推奨
-    3. 灌漑設備の配置図の更新が必要
-
-    ---
-    🔄 **更新履歴**
-    - 最終更新: 2024-02-21 14:30
-    - 更新者: AgriBot
-    - 変更理由: ドローン測量データとの整合性確保
-    """
-    return response
+    response = agent.graph.invoke(initial_input, thread_config, stream_mode="values")
+    
+    return response["messages"][-1]["content"]
 
 def _add_message_with_scroll(role: str, content: str):
     """メッセージを追加し、必要に応じてスクロールを実行"""
