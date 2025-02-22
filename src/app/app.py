@@ -6,7 +6,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.
 
 import streamlit as st
 from dotenv import load_dotenv
-from components.map_component import MapComponent, create_map_container
+from components.map_component import MapComponent
 from components.chat_component import ChatComponent
 from components.chart_component import ChartComponent
 from agent.llm.llm import get_llm_model

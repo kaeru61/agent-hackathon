@@ -15,23 +15,26 @@ class Agent:
         # constructor
         # ================
         graph_builder = GraphBuilder(State)
-        self.node = Node()
+        elf.node = Node()
 
         # ================
         # Build Graph
         # ================
         # Add nodes
-        graph_builder.add_node(self.node.generate_message)
+        graph_builder.add_node(self.node.select_role)
+        graph_builder.add_node(self.node.select_task)
+        graph_builder.add_node(self.node.execute_task)
         graph_builder.add_node(self.node.end)
         
 
         # Add edges
-        graph_builder.add_edge(self.node.generate_message, self.node.end)
+        graph_builder.add_edge(self.node.select_role, self.node.select_task)
+        graph_builder.add_edge(self.node.select_task, self.node.execute_task)
+        graph_builder.add_edge(self.node.execute_task, self.node.end)
 
         
-
         # Set entry and finish point
-        graph_builder.set_entry_point(self.node.generate_message)
+        graph_builder.set_entry_point(self.node.select_role)
         graph_builder.set_finish_point(self.node.end)
 
         # Set up memory

@@ -8,6 +8,13 @@ class State(TypedDict):
     model: BaseLanguageModel
     question: str = Field(description="質問")
 
+    current_role: int = Field(
+        description="現在のエージェントの役割",
+    )
+    current_task: int = Field(
+        description="現在のエージェントの中でのタスク"
+    )
+
     trace_id: str = Field(
         description="トレースの識別子",
     )
