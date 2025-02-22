@@ -25,13 +25,12 @@ class Agent:
         graph_builder.add_node(self.node.select_task)
         graph_builder.add_node(self.node.execute_task)
         graph_builder.add_node(self.node.end)
-        
+
 
         # Add edges
         graph_builder.add_edge(self.node.select_role, self.node.select_task)
         graph_builder.add_edge(self.node.select_task, self.node.execute_task)
         graph_builder.add_edge(self.node.execute_task, self.node.end)
-
         
         # Set entry and finish point
         graph_builder.set_entry_point(self.node.select_role)
@@ -71,4 +70,3 @@ class Agent:
         if state and name in state.values:
             return state.values.get(name)
         return None
-    
