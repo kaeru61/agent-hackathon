@@ -15,7 +15,7 @@ class Agent:
         # constructor
         # ================
         graph_builder = GraphBuilder(State)
-        elf.node = Node()
+        self.node = Node()
 
         # ================
         # Build Graph
