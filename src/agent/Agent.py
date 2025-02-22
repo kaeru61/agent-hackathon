@@ -23,12 +23,12 @@ class Agent:
         # Add nodes
         graph_builder.add_node(self.node.generate_message)
         graph_builder.add_node(self.node.end)
-        
+
 
         # Add edges
         graph_builder.add_edge(self.node.generate_message, self.node.end)
 
-        
+
 
         # Set entry and finish point
         graph_builder.set_entry_point(self.node.generate_message)
@@ -68,4 +68,3 @@ class Agent:
         if state and name in state.values:
             return state.values.get(name)
         return None
-    
