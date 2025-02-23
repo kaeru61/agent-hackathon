@@ -10,7 +10,7 @@ class MapComponent:
 
     def render_map(self):
         # GeoJSONファイルの読み込み
-        geojson_file = 'src/app/components/map.geojson'
+        geojson_file = 'src/app/ref/map.geojson'
         with open(geojson_file, 'r', encoding='utf-8') as f:
             geojson_data = json.load(f)
 
