@@ -17,6 +17,7 @@ langchain-google-genai = "^2.0.10"
 langgraph = "^0.2.74"
 pcse = "^6.0.9"
 ipykernel = "^6.29.5"
+geopandas = "^1.0.1"
 
 
 [build-system]
