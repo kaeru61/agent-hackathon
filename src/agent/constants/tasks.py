@@ -2,69 +2,106 @@ import json
 from typing import Dict, Any, List, Union, Callable
 from dataclasses import dataclass
 from functions.filiter import FieldSearchCriteria, search_fields
+import shutil
+from datetime import datetime
 
-def filter_farmland(json_str) -> List[Dict[str, Any]]:
+def filter_farmland(params_json: str) -> dict:
     """
-    JSON文字列から検索条件を解析し、農地検索を実行する。
-    検索結果を新しいGeoJSONファイルとして保存する。
-
+    農地フィルタリング関数
+    
     Args:
-        json_str (str): JSON形式の検索条件
-
+        params_json (str): JSON形式の検索条件
+        
     Returns:
-        List[Dict[str, Any]]: 検索結果の農地データリスト
+        dict: フィルタリング結果
     """
     try:
-        # JSONをパース
-        search_params = json_str
-        print(search_params)
+        # JSONパース
+        params = json.loads(params_json)
+        print(params)
         
-        # 元のGeoJSONファイルを別名で保存
-        import shutil
-        from datetime import datetime
-        
-        base_path = "src/app/components/"
-        timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        backup_filename = f"map_backup_{timestamp}.geojson"
-        
-        # バックアップの作成
-        shutil.copy(f"{base_path}map-row.geojson", f"{base_path}{backup_filename}")
-        
-        # 元のGeoJSONファイルの読み込み
-        with open(f"{base_path}map.geojson", 'r', encoding='utf-8') as f:
-            geojson_data = json.load(f)
-        
-        # FieldSearchCriteriaオブジェクトを作成
-        criteria = FieldSearchCriteria(
-            farmer_id=search_params.get('farmer_id'),
-            land_type=search_params.get('land_type'),
-            issue_year=search_params.get('issue_year'),
-            area_min=search_params.get('area_min'),
-            area_max=search_params.get('area_max'),
-            prefecture_code=search_params.get('prefecture_code'),
-            city_code=search_params.get('city_code'),
-            usage_situation=search_params.get('usage_situation'),
-            classification=search_params.get('classification')
+        # 検索条件の構築
+        search_criteria = FieldSearchCriteria(
+            farmer_id=params.get("farmer_id"),
+            land_type=params.get("land_type"),
+            issue_year=params.get("issue_year"),
+            area_min=float(params.get("area_min", 0)) if params.get("area_min") else None,
+            area_max=float(params.get("area_max", 0)) if params.get("area_max") else None,
+            prefecture_code=params.get("prefecture_code"),
+            city_code=params.get("city_code"),
+            usage_situation=params.get("usage_situation"),
+            classification=params.get("classification"),
+            settlement=params.get("settlement")
         )
         
-        # 検索を実行
-        results = search_fields(geojson_data, criteria)
+        # GeoJSONデータの読み込み
+        with open('src/app/ref/map-row.geojson', 'r', encoding='utf-8') as f:
+            geojson_data = json.load(f)
+
+        src_path = 'src/app/ref/map.geojson'
+        time = datetime.now().strftime('%Y%m%d%H%M%S')
+        dest_path = f'src/app/ref/backup/map-{time}.geojson'
         
-        # 検索結果を新しいGeoJSONとして保存
-        new_geojson = {
+        shutil.copy(src_path, dest_path)
+        print(f"ファイルをコピーしました: {src_path} -> {dest_path}")
+        
+        #  検索結果を取得
+        filtered_features = search_fields(geojson_data, search_criteria)
+        
+        # 新しいGeoJSONを構築
+        filtered_geojson = {
             "type": "FeatureCollection",
-            "features": results
+            "name": "filtered_merged_polygon_with_farm_pin",
+            "crs": {
+                "type": "name",
+                "properties": {
+                    "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+                }
+            },
+            "features": filtered_features
+        }
+
+        # フィルタリング結果をファイルに保存
+        with open('src/app/ref/map.geojson', 'w', encoding='utf-8') as f:
+            json.dump(filtered_geojson, f, ensure_ascii=False, indent=2)
+        
+        return {
+            "status": "success",
+            "filters_applied": {
+                "farmer_id": search_criteria.farmer_id,
+                "land_type": search_criteria.land_type,
+                "issue_year": search_criteria.issue_year,
+                "area_min": search_criteria.area_min,
+                "area_max": search_criteria.area_max,
+                "prefecture_code": search_criteria.prefecture_code,
+                "city_code": search_criteria.city_code,
+                "usage_situation": search_criteria.usage_situation,
+                "classification": search_criteria.classification
+            },
+            "results": filtered_geojson
         }
         
-        with open(f"{base_path}map.geojson", 'w', encoding='utf-8') as f:
-            json.dump(new_geojson, f, ensure_ascii=False, indent=2)
-        
-        return results
-        
     except json.JSONDecodeError as e:
-        raise ValueError(f"Invalid JSON format: {str(e)}")
+        return {
+            "status": "error",
+            "error": f"JSONパースエラー: {str(e)}",
+            "filters_applied": None,
+            "results": []
+        }
+    except ValueError as e:
+        return {
+            "status": "error",
+            "error": f"パラメータ変換エラー: {str(e)}",
+            "filters_applied": None,
+            "results": []
+        }
     except Exception as e:
-        raise Exception(f"Error processing search request: {str(e)}")
+        return {
+            "status": "error",
+            "error": f"検索処理エラー: {str(e)}",
+            "filters_applied": None,
+            "results": []
+        }
     
 def reorganize_farmland(data):
     # 農地の再編成ロジックをここに記述します
@@ -90,6 +127,7 @@ TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
                 "city_code": "市区町村コード（任意）",
                 "usage_situation": "利用状況（任意）",
                 "classification": "農地区分（例：田、畑）（任意）"
+                "settlement": "農業集落名（任意）"
             }
             ```
 
@@ -97,6 +135,7 @@ TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
             1. 茨城県（08）の1000平方メートル以上の農地を検索
             2. 特定の農家（farmer_id指定）が所有する遊休農地を検索
             3. 市街化調整区域内の田を検索
+            4: 大足(農業集落)の農地を検索
 
             必要な条件のみを指定してください。指定しない条件は省略可能です。
             """,

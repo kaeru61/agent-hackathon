@@ -81,48 +81,48 @@ class Node:
 
     def _execute_task(self, state: State) -> dict[str, str]:
         prompt = """
-        以下のタスクを実行し、結果をJSON形式で返してください。
-        JSONの形式は以下の通りです:
+        以下の情報を参考にタスクを実行してください。
 
         タスク: {task}
         ユーザー入力: {prompt}
         """
 
-        prompt = ChatPromptTemplate.from_template(prompt)
-        chain = prompt | state["model"] | StrOutputParser()
-        task = TASKS[state["current_role"]][state["current_task"]]["description"]
-        
-        response = chain.invoke({"task": task, "prompt": state["prompt"]})
-        
         try:
-            # LLMからの応答を取得
-            response = chain.invoke({"task": task, "prompt": state["prompt"]})
+            prompt_template = ChatPromptTemplate.from_template(prompt)
+            chain = prompt_template | state["model"] | StrOutputParser()
+            task = TASKS[state["current_role"]][state["current_task"]]["description"]
             
-            # JSON文字列の抽出（コードブロックの中からJSONを取り出す）
-            json_match = response.strip()
-            if "```json" in json_match:
-                json_match = json_match.split("```json")[1].split("```")[0].strip()
-            elif "```" in json_match:
-                json_match = json_match.split("```")[1].strip()
-                
-            # JSON文字列をパース
-            content_json = json.loads(json_match)
+            # LLMからの応答を取得
+            raw_response = chain.invoke({
+                "task": task,
+                "prompt": state.get("prompt", "")
+            })
+            
+            # JSON文字列の抽出
+            json_str = raw_response.strip()
+            if "```json" in json_str:
+                json_str = json_str.split("```json")[1].split("```")[0].strip()
+            elif "```" in json_str:
+                json_str = json_str.split("```")[1].split("```")[0].strip()
+            
+            # JSONパース
+            filter_params = json.loads(json_str)
             
             # タスク実行
-            result = TASKS[state["current_role"]][state["current_task"]]["function"](json.dumps(content_json))
+            result = TASKS[state["current_role"]][state["current_task"]]["function"](json.dumps(filter_params))
             
         except json.JSONDecodeError as e:
-            print(f"JSON decode error: {e}")
-            content_json = {"error": f"Invalid JSON format: {e}"}
+            print(f"JSON解析エラー: {e}")
+            result = {"error": str(e)}
         except Exception as e:
-            print(f"Error processing response: {e}")
-            content_json = {"error": str(e)}
-        
+            print(f"実行エラー: {e}")
+            result = {"error": str(e)}
+
         state["messages"].append({
             "role": "system",
-            "content": response
+            "content": f"タスクを実行しました。実行したタスク:{TASKS[state['current_role']][state['current_task']]['name']}",
         })
-            
+        
         return {"messages": state["messages"]}
 
     def _generate_message(self, state: State) -> dict[str, str]:
@@ -147,7 +147,6 @@ class Node:
 
 
     def dummy_end(self, state: State) -> dict[str, str]:
-        print(state)
         pass
 
     def should_generate(self, state: State) -> bool:

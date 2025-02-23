@@ -13,6 +13,7 @@ class FieldSearchCriteria:
     city_code: Optional[str] = None
     usage_situation: Optional[str] = None
     classification: Optional[str] = None  # 田、畑などの区分
+    settlement: Optional[str] = None
 
 def search_fields(
     geojson_data: Dict[str, Any],
@@ -49,36 +50,59 @@ def _matches_criteria(properties: Dict[str, Any], criteria: FieldSearchCriteria)
     Returns:
         bool: すべての条件に一致する場合True
     """
-    # 各条件をチェック（Noneの場合はその条件をスキップ）
-    if (criteria.farmer_id and 
-        properties.FarmerIndicationNumberHash != criteria.farmer_id):
+    try:
+        # 農家IDのチェック
+        if criteria.farmer_id:
+            farmer_id = properties.get('FarmerIndicationNumberHash')
+            if not farmer_id or farmer_id != criteria.farmer_id:
+                return False
+            
+        if criteria.settlement:
+            if properties.get('Settlement_name') != criteria.settlement:
+                return False
+
+        # 土地種別のチェック
+        if criteria.land_type:
+            if properties.get('land_type') != criteria.land_type:
+                return False
+
+        # 発行年のチェック
+        if criteria.issue_year:
+            if properties.get('issue_year') != criteria.issue_year:
+                return False
+
+        # 面積のチェック
+        try:
+            area = float(properties.get('AreaOnRegistry', 0))
+            if criteria.area_min and area < criteria.area_min:
+                return False
+            if criteria.area_max and area > criteria.area_max:
+                return False
+        except (ValueError, TypeError):
+            return False
+
+        # 都道府県コードのチェック
+        if criteria.prefecture_code:
+            if properties.get('TodofukenCode') != criteria.prefecture_code:
+                return False
+
+        # 市区町村コードのチェック
+        if criteria.city_code:
+            if properties.get('ShikuchosonCode') != criteria.city_code:
+                return False
+
+        # 利用状況のチェック
+        if criteria.usage_situation:
+            if properties.get('UsageSituationInvestigationResultCodeName') != criteria.usage_situation:
+                return False
+
+        # 区分のチェック
+        if criteria.classification:
+            if properties.get('ClassificationOfLandCodeName') != criteria.classification:
+                return False
+
+        return True
+
+    except Exception as e:
+        print(f"プロパティ検証エラー: {e}")
         return False
-        
-    if criteria.land_type and properties.get('land_type') != criteria.land_type:
-        return False
-        
-    if criteria.issue_year and properties.get('issue_year') != criteria.issue_year:
-        return False
-        
-    area = float(properties.get('AreaOnRegistry', 0))
-    if criteria.area_min and area < criteria.area_min:
-        return False
-    if criteria.area_max and area > criteria.area_max:
-        return False
-        
-    if (criteria.prefecture_code and 
-        properties.get('TodofukenCode') != criteria.prefecture_code):
-        return False
-        
-    if criteria.city_code and properties.get('ShikuchosonCode') != criteria.city_code:
-        return False
-        
-    if (criteria.usage_situation and 
-        properties.get('UsageSituationInvestigationResultCodeName') != criteria.usage_situation):
-        return False
-        
-    if (criteria.classification and 
-        properties.get('ClassificationOfLandCodeName') != criteria.classification):
-        return False
-        
-    return True
