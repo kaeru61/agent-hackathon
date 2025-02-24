@@ -1,0 +1,2656 @@
+{
+  "type": "FeatureCollection",
+  "name": "filtered_merged_polygon_with_farm_pin",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "09217e1d-7996-4dc2-8b54-334678e52b52",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "ed4f16f0-0c7e-4757-b8f6-d62d213453a0",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "5763e4c0-3ca3-42bc-98c1-6a3d9526c565",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "9cb82e9e-e36a-47f4-b6cb-d1b9b1e2ddbd",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "9cb82e9e-e36a-47f4-b6cb-d1b9b1e2ddbd",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "ed4f16f0-0c7e-4757-b8f6-d62d213453a0",
+        "prev_last_polygon_uuid": "5763e4c0-3ca3-42bc-98c1-6a3d9526c565",
+        "local_government_cd": "082015",
+        "point_lng": 140.379436668,
+        "point_lat": 36.367772485,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "456",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "953fcde2684b4e658d700022dd163be6",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町902-1",
+        "Tiban": "902-1",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009884",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.37959613899997,
+              36.367823595
+            ],
+            [
+              140.379600906,
+              36.367794432
+            ],
+            [
+              140.37933062,
+              36.367699201
+            ],
+            [
+              140.379316377,
+              36.367794727
+            ],
+            [
+              140.37959613899997,
+              36.367823595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "296c71e9-d4d4-448c-85a6-883e1fc7743e",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "13214908-e452-438b-abff-94b3af37ff85",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "d0755c15-2b9e-4335-8b36-bad612cc22c8",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "38afa2ba-532b-401c-9f98-db632b809aab",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "38afa2ba-532b-401c-9f98-db632b809aab",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "13214908-e452-438b-abff-94b3af37ff85",
+        "prev_last_polygon_uuid": "d0755c15-2b9e-4335-8b36-bad612cc22c8",
+        "local_government_cd": "082015",
+        "point_lng": 140.379522628,
+        "point_lat": 36.367487632,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "田",
+        "ClassificationOfLand": "1",
+        "AreaOnRegistry": "1479",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "5c75ccf15a5febd6551b8ebaee97ac8f",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町292-1",
+        "Tiban": "292-1",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009617",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.379610943,
+              36.367743778
+            ],
+            [
+              140.379634507,
+              36.367737641
+            ],
+            [
+              140.379734855,
+              36.367340264
+            ],
+            [
+              140.37973470799997,
+              36.367319162
+            ],
+            [
+              140.379719975,
+              36.367304208
+            ],
+            [
+              140.379404344,
+              36.367255943
+            ],
+            [
+              140.379295754,
+              36.367623631
+            ],
+            [
+              140.379610943,
+              36.367743778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "a4a97b7b-d7b5-4e1c-97c4-6a611a6612f3",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "a40cd041-7b57-4d7b-9f72-0fe6c3959251",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "b1ec43a5-8b99-4ba0-be1e-2a5a535ff127",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "40ddf2cf-63fd-4edd-b7cb-dae765df616b",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "40ddf2cf-63fd-4edd-b7cb-dae765df616b",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "a40cd041-7b57-4d7b-9f72-0fe6c3959251",
+        "prev_last_polygon_uuid": "b1ec43a5-8b99-4ba0-be1e-2a5a535ff127",
+        "local_government_cd": "082015",
+        "point_lng": 140.378781785,
+        "point_lat": 36.367263812,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "田",
+        "ClassificationOfLand": "1",
+        "AreaOnRegistry": "1102",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "48a752bb590dd689ae27cf44a90c9918",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町292-5",
+        "Tiban": "292-5",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009619",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.378922727,
+              36.367468349
+            ],
+            [
+              140.379009957,
+              36.367158686
+            ],
+            [
+              140.37859236099996,
+              36.36709633
+            ],
+            [
+              140.378559224,
+              36.367329433
+            ],
+            [
+              140.378922727,
+              36.367468349
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "79271576-900b-4077-a463-2b34cbde8b3e",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "2af9cb0c-579e-4ac2-bdd4-00f4d978244a",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "296cb88e-cbfb-4701-9a99-f6b8c8b730d9",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "a8b5fded-38cd-4356-bd93-e11cf94770ee",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "a8b5fded-38cd-4356-bd93-e11cf94770ee",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "2af9cb0c-579e-4ac2-bdd4-00f4d978244a",
+        "prev_last_polygon_uuid": "296cb88e-cbfb-4701-9a99-f6b8c8b730d9",
+        "local_government_cd": "082015",
+        "point_lng": 140.379187939,
+        "point_lat": 36.367377005,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "田",
+        "ClassificationOfLand": "1",
+        "AreaOnRegistry": "1395",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "fcfb01b736d36d8c624bdb8865f94f18",
+        "KindOfRightCodeName": "使用貸借権",
+        "KindOfRight": "4",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町292-3",
+        "Tiban": "292-3",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009618",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": "20210201",
+        "EndStagesDate": "20310131",
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.379037875,
+              36.367525693
+            ],
+            [
+              140.379287038,
+              36.367621021
+            ],
+            [
+              140.37938769499996,
+              36.367250682
+            ],
+            [
+              140.379018361,
+              36.36717176
+            ],
+            [
+              140.378975744,
+              36.367326541
+            ],
+            [
+              140.37909270900002,
+              36.367351129
+            ],
+            [
+              140.379037875,
+              36.367525693
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "bebae1b3-2db4-4cbe-9ec0-221178334b4e",
+        "land_type": 200,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "546b3658-14e7-4c44-8a49-ffcf046c5829",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "1e26fecc-6b5c-44ec-ac1c-14a14c9cfcb7",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "e85567d0-4b8c-473c-8ccc-ca2531323874",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "e85567d0-4b8c-473c-8ccc-ca2531323874",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "546b3658-14e7-4c44-8a49-ffcf046c5829",
+        "prev_last_polygon_uuid": "1e26fecc-6b5c-44ec-ac1c-14a14c9cfcb7",
+        "local_government_cd": "082015",
+        "point_lng": 140.377680392,
+        "point_lat": 36.367256746,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "867",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "ac2042b10cef913dff1b3ff2684a7b36",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町895",
+        "Tiban": "895",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009881",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.377827709,
+              36.36760187
+            ],
+            [
+              140.377742449,
+              36.366943238
+            ],
+            [
+              140.377736364,
+              36.366872423
+            ],
+            [
+              140.377658653,
+              36.366859601
+            ],
+            [
+              140.37750862199997,
+              36.367422585
+            ],
+            [
+              140.377827709,
+              36.36760187
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "ae6a2fd7-d4f8-44c4-ac07-a71ed2e29eeb",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "a753a9b1-726a-4bf4-a710-b0363ead6184",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "e308c6fd-f610-458a-844b-9c5167b76662",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "40397c1b-850d-49c5-9974-969dbe26d483",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "40397c1b-850d-49c5-9974-969dbe26d483",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "a753a9b1-726a-4bf4-a710-b0363ead6184",
+        "prev_last_polygon_uuid": "e308c6fd-f610-458a-844b-9c5167b76662",
+        "local_government_cd": "082015",
+        "point_lng": 140.370054128,
+        "point_lat": 36.370208204,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "847",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "1329",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "2ab69d7a42f95202c984161db9199d71",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市筑地町1105",
+        "Tiban": "1105",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009106",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.36974990899998,
+              36.370340589
+            ],
+            [
+              140.370366125,
+              36.370294931
+            ],
+            [
+              140.370401535,
+              36.370141976
+            ],
+            [
+              140.36981758199997,
+              36.370058818
+            ],
+            [
+              140.36974990899998,
+              36.370340589
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "4b1a23cc-681e-45b4-9dbe-41febe443a7e",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "b571a154-a9f6-47ab-8154-a5a4b7a8a639",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "b3a4222c-ea6c-4343-9463-9f5702dd99c3",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "3b5d3034-21ca-4807-a4ff-ed1a8e8c66e9",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "3b5d3034-21ca-4807-a4ff-ed1a8e8c66e9",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "b571a154-a9f6-47ab-8154-a5a4b7a8a639",
+        "prev_last_polygon_uuid": "b3a4222c-ea6c-4343-9463-9f5702dd99c3",
+        "local_government_cd": "082015",
+        "point_lng": 140.368255948,
+        "point_lat": 36.369428733,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "833",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "fda7674bced0a1d73ccd925ef01b5401",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町987-1",
+        "Tiban": "987-1",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009942",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.368385056,
+              36.369670791
+            ],
+            [
+              140.368462168,
+              36.369327711
+            ],
+            [
+              140.368018155,
+              36.369276147
+            ],
+            [
+              140.36800783999996,
+              36.369381513
+            ],
+            [
+              140.368385056,
+              36.369670791
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "9fb5eed7-a307-42f6-bb54-d1400205779d",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "ddd10798-8f17-4dd7-94cf-a5f593bf0823",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "adcacc64-5f74-4bd8-a65f-cb12813789cc",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "a438ac53-99c8-45fe-9114-f99d3bc56caf",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "a438ac53-99c8-45fe-9114-f99d3bc56caf",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "ddd10798-8f17-4dd7-94cf-a5f593bf0823",
+        "prev_last_polygon_uuid": "adcacc64-5f74-4bd8-a65f-cb12813789cc",
+        "local_government_cd": "082015",
+        "point_lng": 140.36862662,
+        "point_lat": 36.369673441,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "田",
+        "ClassificationOfLand": "1",
+        "AreaOnRegistry": "1060",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "a504f94f9a34e120b11c26dcc561cc93",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町976-1",
+        "Tiban": "976-1",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009931",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.36870672699996,
+              36.369904381
+            ],
+            [
+              140.368750797,
+              36.369893473
+            ],
+            [
+              140.36883678599997,
+              36.369557493
+            ],
+            [
+              140.36844350099997,
+              36.369500348
+            ],
+            [
+              140.36839833599998,
+              36.369673702
+            ],
+            [
+              140.36870672699996,
+              36.369904381
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "2b151fcd-6efc-4ac7-b020-5d5aa719cc91",
+        "land_type": 200,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "ec036494-69ce-4e5d-9d0f-1ef40827bd8b",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "04334bc9-2477-408a-9a26-dd6c5215516f",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "f492e05b-f442-4d30-afe8-e3c04ca873a1",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "f492e05b-f442-4d30-afe8-e3c04ca873a1",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "ec036494-69ce-4e5d-9d0f-1ef40827bd8b",
+        "prev_last_polygon_uuid": "04334bc9-2477-408a-9a26-dd6c5215516f",
+        "local_government_cd": "082015",
+        "point_lng": 140.368221252,
+        "point_lat": 36.368850411,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "264",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "1bbb53e881143882d4c034ff7b541382",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町984-2",
+        "Tiban": "984-2",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009941",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.368101556,
+              36.368884269
+            ],
+            [
+              140.368457279,
+              36.368936228
+            ],
+            [
+              140.36810492099997,
+              36.368730737
+            ],
+            [
+              140.368101556,
+              36.368884269
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "6d260503-10dc-4c7e-95db-672ca7539895",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "2d29f35d-1347-4197-b7e1-9bd0b3aa5b8a",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "b65c6c69-644d-4289-b5be-0f59613557e0",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "a3e77fb7-01d0-490d-b793-b2320139534b",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "a3e77fb7-01d0-490d-b793-b2320139534b",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "2d29f35d-1347-4197-b7e1-9bd0b3aa5b8a",
+        "prev_last_polygon_uuid": "b65c6c69-644d-4289-b5be-0f59613557e0",
+        "local_government_cd": "082015",
+        "point_lng": 140.370516066,
+        "point_lat": 36.367423157,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "2801",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "9ae3af9b88caf6c00c61a1fab5f4ac94",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町942",
+        "Tiban": "942",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009908",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.371026229,
+              36.367627933
+            ],
+            [
+              140.371094188,
+              36.367400029
+            ],
+            [
+              140.370003678,
+              36.367217499
+            ],
+            [
+              140.369942356,
+              36.36744805
+            ],
+            [
+              140.371026229,
+              36.367627933
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "c61d8148-65d9-43a6-b05e-1385d8b216f4",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "5cc53c5d-32af-4df5-ae23-f0467682e761",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "c854eb9e-b2d5-422a-9922-b7e56e8b5b4c",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "6107d7a7-8ff5-4e87-90e3-37cd9582bc1c",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "6107d7a7-8ff5-4e87-90e3-37cd9582bc1c",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "5cc53c5d-32af-4df5-ae23-f0467682e761",
+        "prev_last_polygon_uuid": "c854eb9e-b2d5-422a-9922-b7e56e8b5b4c",
+        "local_government_cd": "082015",
+        "point_lng": 140.370455314,
+        "point_lat": 36.367659522,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "2721",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "fcfb01b736d36d8c624bdb8865f94f18",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町943",
+        "Tiban": "943",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009909",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.37097487800003,
+              36.367863822
+            ],
+            [
+              140.371029632,
+              36.367641334
+            ],
+            [
+              140.369935789,
+              36.367456141
+            ],
+            [
+              140.369877705,
+              36.367675966
+            ],
+            [
+              140.37097487800003,
+              36.367863822
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "4423a8e5-fd6f-4535-9441-a3d02514e0ee",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "7eabf14a-cfae-4f0f-b930-903f5b08849a",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "83843263-c654-48fc-9ec3-001223c5676d",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "ef0d1f67-8a93-4e7f-b43c-7b4ec5f1949f",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "ef0d1f67-8a93-4e7f-b43c-7b4ec5f1949f",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "7eabf14a-cfae-4f0f-b930-903f5b08849a",
+        "prev_last_polygon_uuid": "83843263-c654-48fc-9ec3-001223c5676d",
+        "local_government_cd": "082015",
+        "point_lng": 140.36960875,
+        "point_lat": 36.36729288,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "田",
+        "ClassificationOfLand": "1",
+        "AreaOnRegistry": "5268",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "27c9a780b614bc51b90a4e4810ca34d9",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町949-1",
+        "Tiban": "949-1",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009914",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.369850787,
+              36.367593053
+            ],
+            [
+              140.369969551,
+              36.367048963
+            ],
+            [
+              140.369512161,
+              36.366976043
+            ],
+            [
+              140.369154031,
+              36.367376615
+            ],
+            [
+              140.369612655,
+              36.367628931
+            ],
+            [
+              140.369675117,
+              36.367564388
+            ],
+            [
+              140.369850787,
+              36.367593053
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "fbd72065-ba96-4243-9d43-5b09fa54d45e",
+        "land_type": 200,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "d8bb8674-8ebb-470f-b094-fcd1aa6cb0f2",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "b9df2c47-2ee4-4345-8f21-d88fb8f53a57",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "f71351a9-524b-4539-9a9e-9a069e5f761d",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "f71351a9-524b-4539-9a9e-9a069e5f761d",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "d8bb8674-8ebb-470f-b094-fcd1aa6cb0f2",
+        "prev_last_polygon_uuid": "b9df2c47-2ee4-4345-8f21-d88fb8f53a57",
+        "local_government_cd": "082015",
+        "point_lng": 140.370297408,
+        "point_lat": 36.36828964,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "2196",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "1ddc66fd7d7a37dbe779c970e6e2cb3a",
+        "KindOfRightCodeName": "使用貸借権",
+        "KindOfRight": "4",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町946",
+        "Tiban": "946",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009912",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": "19870330",
+        "EndStagesDate": "19970329",
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.370816861,
+              36.368476383
+            ],
+            [
+              140.370868452,
+              36.36827533
+            ],
+            [
+              140.369764779,
+              36.368106245
+            ],
+            [
+              140.369722934,
+              36.368280478
+            ],
+            [
+              140.369742946,
+              36.368301809
+            ],
+            [
+              140.370816861,
+              36.368476383
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "3c477225-625a-40e4-9c11-bda6fbaa8756",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "37b7d570-82d3-4922-b367-4e7e86679f8d",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "4c7033fb-2c7d-4a13-a79d-1d2c1bb2d216",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "2185497c-fad3-4cd3-867d-611bd231d9a5",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "2185497c-fad3-4cd3-867d-611bd231d9a5",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "37b7d570-82d3-4922-b367-4e7e86679f8d",
+        "prev_last_polygon_uuid": "4c7033fb-2c7d-4a13-a79d-1d2c1bb2d216",
+        "local_government_cd": "082015",
+        "point_lng": 140.370397191,
+        "point_lat": 36.367886517,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "2542",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "0f1cd9d3f5b6f65893e4f31c96c52045",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町944",
+        "Tiban": "944",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009910",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.370906846,
+              36.368081071
+            ],
+            [
+              140.37097160499997,
+              36.367869249
+            ],
+            [
+              140.369881126,
+              36.367692072
+            ],
+            [
+              140.369826296,
+              36.367903851
+            ],
+            [
+              140.370906846,
+              36.368081071
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "28116051-6c14-4e15-9ad5-865b58253849",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "caac8d29-d2b7-4092-ada5-e561626a828a",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "9f36f8ca-3f98-40fa-adeb-a122cc11b60f",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "02d37e3d-0a47-4fe9-b048-27120ee5c719",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "02d37e3d-0a47-4fe9-b048-27120ee5c719",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "caac8d29-d2b7-4092-ada5-e561626a828a",
+        "prev_last_polygon_uuid": "9f36f8ca-3f98-40fa-adeb-a122cc11b60f",
+        "local_government_cd": "082015",
+        "point_lng": 140.370346211,
+        "point_lat": 36.368087535,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "2142",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "84cc0df5c4de7f3bc18f3267d80c89cd",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町945",
+        "Tiban": "945",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009911",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.370871333,
+              36.368265486
+            ],
+            [
+              140.370919797,
+              36.368091222
+            ],
+            [
+              140.369825967,
+              36.367908706
+            ],
+            [
+              140.369774208,
+              36.368085661
+            ],
+            [
+              140.370871333,
+              36.368265486
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "084286da-9551-4bbe-91ba-cd5fe2baf482",
+        "land_type": 200,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "d0f56f53-6b49-44c2-8858-4e98ba4f260f",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "6910e8cd-1905-47ed-95ab-56ef0a48ab48",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "c3799e65-1390-4f94-b912-736d9ca1ecaf",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "c3799e65-1390-4f94-b912-736d9ca1ecaf",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "d0f56f53-6b49-44c2-8858-4e98ba4f260f",
+        "prev_last_polygon_uuid": "6910e8cd-1905-47ed-95ab-56ef0a48ab48",
+        "local_government_cd": "082015",
+        "point_lng": 140.368473947,
+        "point_lat": 36.368595843,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "801",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "1bbb53e881143882d4c034ff7b541382",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町984-1",
+        "Tiban": "984-1",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009940",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.36857037799996,
+              36.368797045
+            ],
+            [
+              140.368643099,
+              36.368457554
+            ],
+            [
+              140.368417956,
+              36.368456778
+            ],
+            [
+              140.368240177,
+              36.36860395
+            ],
+            [
+              140.36857037799996,
+              36.368797045
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "5a5129d3-2520-4093-898d-5e6d8a6aa654",
+        "land_type": 200,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "279a1d95-deac-420a-91fc-ae775234538b",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "c4c49c7a-a8b9-479c-9fb5-579f05456fae",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "574890c1-8770-4d5b-aef7-3052746826a2",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "574890c1-8770-4d5b-aef7-3052746826a2",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "279a1d95-deac-420a-91fc-ae775234538b",
+        "prev_last_polygon_uuid": "c4c49c7a-a8b9-479c-9fb5-579f05456fae",
+        "local_government_cd": "082015",
+        "point_lng": 140.369258553,
+        "point_lat": 36.368983403,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "1359",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "f762b8028eece3f15cbe32908eafb720",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町970-1",
+        "Tiban": "970-1",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009926",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.36942736899996,
+              36.369205556
+            ],
+            [
+              140.369513403,
+              36.368876715
+            ],
+            [
+              140.369033992,
+              36.368812817
+            ],
+            [
+              140.368989073,
+              36.369021873
+            ],
+            [
+              140.36942736899996,
+              36.369205556
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "00aff5cf-c7c4-4249-8d7b-1b7b11cf88f5",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "0a7bfc9f-5d8c-41ca-bdc1-018a75eb4ce2",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "c326a8c3-5693-40de-8860-9d5d2f39e9e7",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "78fb0cbe-8979-496d-854f-e84f6a01b9d1",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "78fb0cbe-8979-496d-854f-e84f6a01b9d1",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "0a7bfc9f-5d8c-41ca-bdc1-018a75eb4ce2",
+        "prev_last_polygon_uuid": "c326a8c3-5693-40de-8860-9d5d2f39e9e7",
+        "local_government_cd": "082015",
+        "point_lng": 140.369324499,
+        "point_lat": 36.368676844,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "田",
+        "ClassificationOfLand": "1",
+        "AreaOnRegistry": "1584",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "234ba057aca7b9b0e5e107219a9ba783",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町971",
+        "Tiban": "971",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009928",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.369519205,
+              36.368865393
+            ],
+            [
+              140.36959655700002,
+              36.368558012
+            ],
+            [
+              140.369150158,
+              36.368479686
+            ],
+            [
+              140.36904199,
+              36.3687997
+            ],
+            [
+              140.369519205,
+              36.368865393
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "479c4f90-f11a-4ffe-b53d-ff23f37920d1",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "c7d1b2c3-00dc-4047-87bf-db0c40a33a04",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "33a56d8a-9316-4b40-8968-b59c177126b4",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "9880a548-1f5f-49c7-a66e-453d26f6b921",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "9880a548-1f5f-49c7-a66e-453d26f6b921",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "c7d1b2c3-00dc-4047-87bf-db0c40a33a04",
+        "prev_last_polygon_uuid": "33a56d8a-9316-4b40-8968-b59c177126b4",
+        "local_government_cd": "082015",
+        "point_lng": 140.370154297,
+        "point_lat": 36.368771799,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "2151",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "9ae3af9b88caf6c00c61a1fab5f4ac94",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町959",
+        "Tiban": "959",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009920",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.370682197,
+              36.368956868
+            ],
+            [
+              140.370721178,
+              36.368788768
+            ],
+            [
+              140.37069975499998,
+              36.36878484
+            ],
+            [
+              140.37069524899997,
+              36.368780837
+            ],
+            [
+              140.370700098,
+              36.368762304
+            ],
+            [
+              140.36963010899998,
+              36.36858673
+            ],
+            [
+              140.369585063,
+              36.368777042
+            ],
+            [
+              140.370682197,
+              36.368956868
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "53efb808-9290-44a6-9994-74b11a7e5df7",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "8ec2de68-71ce-4f8c-bf86-d486b31dc0ec",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "145880fa-90fa-4e5e-afeb-bbc90e2d04fc",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "a60e458f-5ce3-480d-a8d1-79598b47d376",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "a60e458f-5ce3-480d-a8d1-79598b47d376",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "8ec2de68-71ce-4f8c-bf86-d486b31dc0ec",
+        "prev_last_polygon_uuid": "145880fa-90fa-4e5e-afeb-bbc90e2d04fc",
+        "local_government_cd": "082015",
+        "point_lng": 140.370122316,
+        "point_lat": 36.368962924,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "2147",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "7c879c8547882d49ba5c097d68e91854",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町960",
+        "Tiban": "960",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009921",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.3706159,
+              36.369134901
+            ],
+            [
+              140.37061927999997,
+              36.369119996
+            ],
+            [
+              140.37062620399996,
+              36.369113929
+            ],
+            [
+              140.37065709699996,
+              36.36912022899999
+            ],
+            [
+              140.370693684,
+              36.36896485
+            ],
+            [
+              140.369589946,
+              36.368787731
+            ],
+            [
+              140.36955139299997,
+              36.368959271
+            ],
+            [
+              140.3706159,
+              36.369134901
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "d0f7b27f-eec7-4ae9-a2f2-c5bf7a433bbe",
+        "land_type": 200,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "95ef6436-a21c-4b23-81fa-a71231f62456",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "a165b14a-93e1-4c03-bb76-aa674ce4f97d",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "bb4a064f-c7fc-4dba-8f6f-b1d5132ee9c8",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "bb4a064f-c7fc-4dba-8f6f-b1d5132ee9c8",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "95ef6436-a21c-4b23-81fa-a71231f62456",
+        "prev_last_polygon_uuid": "a165b14a-93e1-4c03-bb76-aa674ce4f97d",
+        "local_government_cd": "082015",
+        "point_lng": 140.369420747,
+        "point_lat": 36.368380972,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "725",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "4fc44fc4ce8a21345013c34deb846013",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町973",
+        "Tiban": "973",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009930",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.36961004899996,
+              36.368537814
+            ],
+            [
+              140.369642238,
+              36.368403789
+            ],
+            [
+              140.36964187,
+              36.368350238
+            ],
+            [
+              140.369610689,
+              36.368309321
+            ],
+            [
+              140.36920419099997,
+              36.368255808
+            ],
+            [
+              140.36915230799997,
+              36.368414912
+            ],
+            [
+              140.369454984,
+              36.368456396
+            ],
+            [
+              140.369477117,
+              36.368465222
+            ],
+            [
+              140.36946421699997,
+              36.368515262
+            ],
+            [
+              140.36961004899996,
+              36.368537814
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "27325b04-56c3-403b-a5f8-2d91273e21c3",
+        "land_type": 200,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "20dfb583-3f9b-4ae3-85c8-12dbd92f319a",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "dcf619d0-bbff-4efa-856c-459bc7d36cf2",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "2080dbdf-70db-4b60-840e-89a8b51ce40d",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "2080dbdf-70db-4b60-840e-89a8b51ce40d",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "20dfb583-3f9b-4ae3-85c8-12dbd92f319a",
+        "prev_last_polygon_uuid": "dcf619d0-bbff-4efa-856c-459bc7d36cf2",
+        "local_government_cd": "082015",
+        "point_lng": 140.370221803,
+        "point_lat": 36.368541494,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "田",
+        "ClassificationOfLand": "1",
+        "AreaOnRegistry": "2791",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "9ae3af9b88caf6c00c61a1fab5f4ac94",
+        "KindOfRightCodeName": "賃借権",
+        "KindOfRight": "5",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町958",
+        "Tiban": "958",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009919",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": "20170401",
+        "EndStagesDate": "20230331",
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.370732911,
+              36.368758595
+            ],
+            [
+              140.370795168,
+              36.368533883
+            ],
+            [
+              140.370775045,
+              36.368496486
+            ],
+            [
+              140.36971109899997,
+              36.368327223
+            ],
+            [
+              140.36963335,
+              36.368576591
+            ],
+            [
+              140.370732911,
+              36.368758595
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "d84b338e-9a18-47d7-abc8-7cbdff37f25b",
+        "land_type": 100,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "ccb571ab-dc88-41ec-b920-c1489f87c7e1",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "e38a41cf-8de8-4e79-a685-67e60b760798",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "2c1c8568-493e-4dd3-8cc3-826941fd6076",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "2c1c8568-493e-4dd3-8cc3-826941fd6076",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "ccb571ab-dc88-41ec-b920-c1489f87c7e1",
+        "prev_last_polygon_uuid": "e38a41cf-8de8-4e79-a685-67e60b760798",
+        "local_government_cd": "082015",
+        "point_lng": 140.368760834,
+        "point_lat": 36.367245013,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "田",
+        "ClassificationOfLand": "1",
+        "AreaOnRegistry": "1545",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "fcfb01b736d36d8c624bdb8865f94f18",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町669-1",
+        "Tiban": "669-1",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009706",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.368863301,
+              36.367482402
+            ],
+            [
+              140.36907029699998,
+              36.367251199
+            ],
+            [
+              140.36855834,
+              36.366945567
+            ],
+            [
+              140.36858910800004,
+              36.367087343
+            ],
+            [
+              140.36857319699996,
+              36.367181131
+            ],
+            [
+              140.36849134599998,
+              36.367315379
+            ],
+            [
+              140.368863301,
+              36.367482402
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "polygon_uuid": "e564e0f0-f3d6-4e55-a0b0-860f7f163c40",
+        "land_type": 200,
+        "issue_year": 2024,
+        "edit_year": 2020,
+        "history": [
+          {
+            "筆ポリゴンID": "da74e388-2976-4c8c-ab5d-b4cdbf647150",
+            "更新年度": 2023,
+            "前年同一": true
+          },
+          [
+            {
+              "筆ポリゴンID": "71aa33ff-4900-4123-9bb7-257100e83f3d",
+              "更新年度": 2022,
+              "前年同一": true
+            },
+            [
+              {
+                "筆ポリゴンID": "a4a57f17-6db6-4279-bf31-758d3c08fdf0",
+                "更新年度": 2021,
+                "前年同一": true
+              },
+              {
+                "筆ポリゴンID": "a4a57f17-6db6-4279-bf31-758d3c08fdf0",
+                "発生年度": 2020
+              }
+            ]
+          ]
+        ],
+        "last_polygon_uuid": "da74e388-2976-4c8c-ab5d-b4cdbf647150",
+        "prev_last_polygon_uuid": "71aa33ff-4900-4123-9bb7-257100e83f3d",
+        "local_government_cd": "082015",
+        "point_lng": 140.369448054,
+        "point_lat": 36.368149043,
+        "num_farm_pins": 1,
+        "FarmCommitteeCd": "0820150",
+        "FarmCommitteeName": "水戸市農業委員会",
+        "TodofukenCode": "08",
+        "ShikuchosonCode": "082015",
+        "OazaCode": "848",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "2",
+        "AreaOnRegistry": "1169",
+        "SectionOfNoushinhouCodeName": "調査中",
+        "SectionOfNoushinhou": "0",
+        "SectionOfToshikeikakuhouCodeName": "市街化調整区域",
+        "SectionOfToshikeikakuhou": "2",
+        "OwnerFarmIntentionCodeName": "非公表",
+        "OwnerFarmIntention": "999",
+        "FarmerIndicationNumberHash": "beceeebe049f07755089dc76698381f8",
+        "KindOfRightCodeName": "賃借権等の設定がない",
+        "KindOfRight": "0",
+        "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
+        "RightSettingContents": "0",
+        "UsageSituationInvestigationDate": "20201130",
+        "UsageSituationInvestigationResultCodeName": "遊休農地ではない",
+        "UsageSituationInvestigationResult": "3",
+        "OwnerStatementIntentSurveyResultsCodeName": "調査対象外",
+        "OwnerStatementIntentSurveyResults": "6",
+        "UseIntentionAscertainmentResultCodeName": "調査中",
+        "UseIntentionAscertainmentResult": "2",
+        "Address": "茨城県水戸市赤尾関町952-2",
+        "Tiban": "952-2",
+        "SectionOfPolygon": "3",
+        "SectionOfPolygonCodeName": "その他",
+        "DaichoId": "81009916",
+        "daicho_shubetsu_cd": "KNO01",
+        "CommencementDate": null,
+        "EndStagesDate": null,
+        "UseIntentionInvestigationDate": null,
+        "Settlement_id": "007",
+        "Settlement_name": "赤尾関",
+        "Settlement_pref": "茨城県",
+        "Settlement_city": "水戸市"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              140.36969053,
+              36.368256888
+            ],
+            [
+              140.369735814,
+              36.36810138300001
+            ],
+            [
+              140.369309,
+              36.367981913
+            ],
+            [
+              140.369116276,
+              36.368202341
+            ],
+            [
+              140.36948755699999,
+              36.368270294
+            ],
+            [
+              140.369661085,
+              36.36830025
+            ],
+            [
+              140.36969053,
+              36.368256888
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
