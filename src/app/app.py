@@ -7,6 +7,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '.
 import streamlit as st
 from dotenv import load_dotenv
 from components.map_component import MapComponent
+from components.colored_component import ColorMapComponent
 from components.chat_component import ChatComponent
 from components.chart_component import ChartComponent
 from agent.llm.llm import get_llm_model
@@ -22,7 +23,8 @@ def generate_answer(prompt):
     initial_input = {
         "prompt": prompt,
         "model": get_llm_model(),
-        "messages": []
+        "messages": [],
+        "execute_tasks": False
     }
     thread_config = {
         "configurable": {
@@ -32,6 +34,12 @@ def generate_answer(prompt):
         }
     }
     response = agent.graph.invoke(initial_input, thread_config, stream_mode="values")
+    print(response)
+    if response["current_role"] == 1 and response["current_task"] == 2 and response["execute_tasks"]:
+        print("色分けマップを表示")
+        st.session_state["show_color_map"] = True
+    elif response["current_role"] == 1 and response["current_task"] == 2:
+        st.session_state["show_color_map"] = False
     
     return response["messages"][-1]["content"]
 
@@ -43,6 +51,8 @@ def _add_message_with_scroll(role: str, content: str):
 class MainLayout:
     def __init__(self):
         st.set_page_config(layout="wide")
+        if "show_color_map" not in st.session_state:
+            st.session_state["show_color_map"] = False
     
     def create_layout(self):
         """メインレイアウトの作成"""
@@ -107,8 +117,12 @@ def main():
     # 地図コンポーネントの描画（中央カラム）
     with map_col:
         map_component = MapComponent()
+        map_color_component = ColorMapComponent()
         st.markdown("### 地図表示エリア")
-        map_data = map_component.render_map()
+        if not st.session_state.show_color_map:
+            map_component.render_map()
+        else:
+            map_color_component.render_map()
 
     # チャートコンポーネントの描画（右カラム）
     with chart_col:
