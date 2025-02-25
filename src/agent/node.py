@@ -9,6 +9,7 @@ from langchain_core.output_parsers import StrOutputParser
 from agent.state import State
 from agent.constants.tasks import TASKS
 from agent.constants.role import ROLES
+from agent.constants.inputs import INPUTS
 import json
 
 @dataclass
@@ -21,11 +22,32 @@ class Node:
     def __init__(
         self,
     ) -> None:
+        self.judge_question = NodeType("judge_question", self._judge_question)
         self.generate_message = NodeType("generate_message", self._generate_message)
         self.select_role = NodeType("select_role", self._select_role)
         self.select_task = NodeType("select_task", self._select_task)
         self.execute_task = NodeType("execute_task", self._execute_task)
         self.end = NodeType("end", self.dummy_end)
+
+    def _judge_question(self, state: State) -> dict[str, str]:
+        prompt_row = """
+        あなたは農業関連のタスクを統括するエージェントです。
+        以下のユーザーからの入力が、質問であるかを判断してください。
+        質問であれば1を、質問でなければ0を出力してください。
+
+        入力: {prompt}
+        """
+
+        prompt = ChatPromptTemplate.from_template(prompt_row)
+
+        chain = prompt | state["model"].with_config(max_tokens=1) | StrOutputParser()
+
+        is_question = chain.invoke({"prompt": state["prompt"]})
+        
+        if int(is_question) == 1:
+            return { "is_question": True, "current_role": 4 }
+        else:
+            return { "is_question": False }
 
     def _select_role(self, state: State) -> dict[str, str]:
         prompt = """
@@ -36,7 +58,6 @@ class Node:
 
         指示: {prompt}
         役割一覧: {role_list}
-
         """
 
         prompt = ChatPromptTemplate.from_template(prompt)
@@ -134,12 +155,22 @@ class Node:
         return {"messages": state["messages"]}
 
     def _generate_message(self, state: State) -> dict[str, str]:
-        prompt_row = state["prompt"]
-        prompt = ChatPromptTemplate.from_template(prompt_row)
+        prompt = """
+        あなたは農業関連のタスクを統括するエージェントです。
+        以下のユーザーからの入力とタスクの一覧を元にをユーザーからの質問に答えてください
+        入力は全てチャット形式で受け付けることを考慮してください
+        また、タスク一覧に記載されていない事柄は答えられないことを考慮してください
+        特に、タスクに必要な入力への返答をするようにしてください
+        タスク一覧: {task_list}
+        ユーザー入力: {prompt}
+        """
+        prompt = ChatPromptTemplate.from_template(prompt)
+
+        task_list = INPUTS
 
         chain = prompt | state["model"]
         
-        response = chain.invoke({})
+        response = chain.invoke({"prompt": state["prompt"], "task_list": task_list})
 
         # responseのcontent部分のみを切り出す
         content = response.content if hasattr(response, 'content') else response
