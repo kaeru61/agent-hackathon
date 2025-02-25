@@ -103,8 +103,7 @@ def filter_farmland(params_json: str) -> dict:
             "results": []
         }
     
-def reorganize_farmland(data):
-    # 農地の再編成ロジックをここに記述します
+def color_farmland(data):
     pass
 
 TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
@@ -142,12 +141,16 @@ TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
             "function": filter_farmland
         },
         2: {
-            "name": "農地の再編成",
+            "name": "農地の色付け",
             "description": """
-            ユーザーが求める農地の再編成を行うエージェントです。
-            今は、ユーザーの要望を要約してください
+            ユーザーが求める農地の色付けを行うエージェントです。
+            まず、色分けを実行したいのか、解除したいのかを判断してください。
+            変数は、以上のうちいずれか一つを指定してください。
+            出力は0か1のみにしてください
+            0は解除
+            1は色分け
             """,
-            "function": reorganize_farmland
+            "function": color_farmland
         }
     },
     2:{
@@ -156,7 +159,7 @@ TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
             "description": """
             今はは未実装です
             """,
-            "function": reorganize_farmland
+            "function": color_farmland
         }
     }
 }

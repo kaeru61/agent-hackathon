@@ -53,6 +53,7 @@ class Node:
         あなたは{role}の役割のエージェントです
         以下の指示から、まずは求められたタスクを選択してください。
         タスクの番号のみを出力してください。
+        タスクの中身を実行するのではなく、必ずタスク番号のみを返却してください
         タスク一覧: {task_list}
 
         指示: {prompt}
@@ -71,12 +72,11 @@ class Node:
             print(f"Warning: Invalid role value {state.get('current_role')}, falling back to role 1")
             role = ROLES[1]
 
-        task_list = TASKS[state["current_role"]]
+        task_names = {task_id: task_info["name"] for task_id, task_info in TASKS[state["current_role"]].items()}
 
         chain = prompt | state["model"].with_config(max_tokens=1) | StrOutputParser()
 
-        current_task = chain.invoke({"prompt": state["prompt"], "task_list": task_list, "role": role})
-
+        current_task = chain.invoke({"prompt": state["prompt"], "task_list": task_names, "role": role})
         return { "current_task": int(current_task) }
 
     def _execute_task(self, state: State) -> dict[str, str]:
@@ -110,6 +110,14 @@ class Node:
             
             # タスク実行
             result = TASKS[state["current_role"]][state["current_task"]]["function"](json.dumps(filter_params))
+
+            if state["current_task"] == 2:
+                print(raw_response)
+                state["messages"].append({
+                    "role": "system",
+                    "content": f"タスクを実行しました。実行したタスク:{TASKS[state['current_role']][state['current_task']]['name']}",
+                })
+                return {"messages": state["messages"], "execute_tasks": int(raw_response) == 1}
             
         except json.JSONDecodeError as e:
             print(f"JSON解析エラー: {e}")

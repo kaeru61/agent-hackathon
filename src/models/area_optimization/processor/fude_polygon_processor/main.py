@@ -96,10 +96,7 @@ class FudePolygonProcessor:
     def process(self):
         """一連の処理を実行"""
         self.load_data()
-        self.filter_land_use()
         self.remove_small_polygons()
-        self.merge_adjacent_polygons()
-        self.normalize_shape()
         self.save_data()
 
 # 実行例

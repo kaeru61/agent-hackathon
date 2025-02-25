@@ -27,4 +27,8 @@ class State(TypedDict):
         description="プロンプト",
     )
 
+    execute_tasks: bool = Field(
+        description="タスクを実行するかどうか",
+    )
+
     messages: Annotated[list, "会話履歴のリスト"]
