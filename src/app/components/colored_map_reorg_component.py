@@ -18,7 +18,7 @@ land_type_dict = {
     '2': '畑'
 }
 
-class ColorMapComponent:
+class ColorReorgMapComponent:
     def __init__(self):
         self.map = folium.Map(location=[36.377328516, 140.375387545], zoom_start=14)
         
@@ -95,10 +95,10 @@ class ColorMapComponent:
             '色分けの基準を選択',
             options=list(self.color_params.keys()),
             format_func=lambda x: self.color_params[x]['name'],
-            key="color_param"
+            key="color_reorg_param"
         )
 
-        geojson_file = 'src/app/ref/map.geojson'
+        geojson_file = 'src/app/ref/map-reorg.geojson'
         with open(geojson_file, 'r', encoding='utf-8') as f:
             geojson_data = json.load(f)
 
@@ -120,7 +120,7 @@ class ColorMapComponent:
             )
         ).add_to(self.map)
 
-        st_folium(self.map, width=700, height=500, key="map_colored")
+        st_folium(self.map, width=700, height=500, key="map_reorg_colored")
 
     def _render_legend(self, color_param: str):
         """凡例の表示"""

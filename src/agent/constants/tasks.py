@@ -4,6 +4,89 @@ from dataclasses import dataclass
 from functions.filiter import FieldSearchCriteria, search_fields
 import shutil
 from datetime import datetime
+import os
+import geopandas as gpd
+import math
+from functions.reorganize import Scenario, reorganize
+
+def reorganize_farmland(params_json: str) -> dict:
+    """
+    農地再編成関数
+    
+    Args:
+        params_json (str): JSON形式の再編成条件
+        
+    Returns:
+        dict: 再編成結果
+    """
+    try:
+        # JSONパース
+        params = json.loads(params_json)
+        print(params)
+        
+        # GeoJSONデータの読み込み
+        with open('src/app/ref/map.geojson', 'r', encoding='utf-8') as f:
+            geojson_data = json.load(f)
+        print("GeoJSONデータを読み込みました")
+        
+        # バックアップ作成
+        src_path = 'src/app/ref/map-reorg.geojson'
+        if os.path.exists(src_path):
+            time = datetime.now().strftime('%Y%m%d%H%M%S')
+            dest_path = f'src/app/ref/backup/map-reorg-{time}.geojson'
+        print(f"バックアップを作成します: {src_path} -> {dest_path}")
+        
+        shutil.copy(src_path, dest_path)
+        print(f"ファイルをコピーしました: {src_path} -> {dest_path}")
+        
+        # Scenarioデータクラスへの変換
+        scenario = Scenario(
+            farmer_N=params.get("farmer_N", 0),
+            existing_farmer_ids=params.get("existing_farmer_ids", []),
+            ta_arearates=params.get("ta_arearates", []),
+            hata_arearates=params.get("hata_arearates", [])
+        )
+        
+        # 農地再編成の実行
+        reorganized_geojson = reorganize(geojson_data, scenario)
+        print("再編成完了")
+        
+        # 再編成結果をファイルに保存
+        with open('src/app/ref/map-reorg.geojson', 'w', encoding='utf-8') as f:
+            json.dump(reorganized_geojson, f, ensure_ascii=False, indent=2)
+        
+        return {
+            "status": "success",
+            "scenario_applied": {
+                "farmer_N": scenario.farmer_N,
+                "existing_farmer_ids": scenario.existing_farmer_ids,
+                "ta_arearates": scenario.ta_arearates,
+                "hata_arearates": scenario.hata_arearates
+            },
+            "results": reorganized_geojson
+        }
+        
+    except json.JSONDecodeError as e:
+        return {
+            "status": "error",
+            "error": f"JSONパースエラー: {str(e)}",
+            "scenario_applied": None,
+            "results": []
+        }
+    except ValueError as e:
+        return {
+            "status": "error",
+            "error": f"パラメータ変換エラー: {str(e)}",
+            "scenario_applied": None,
+            "results": []
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "error": f"再編成処理エラー: {str(e)}",
+            "scenario_applied": None,
+            "results": []
+        }
 
 def filter_farmland(params_json: str) -> dict:
     """
@@ -151,9 +234,51 @@ TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
             1は色分け
             """,
             "function": color_farmland
+        },
+        3: {
+            "name": "農地の再編成",
+            "description": """
+            農地の再編成を行うエージェントです。
+            農地を効率的に再配置するための条件を以下のJSONフォーマットで指定してください：
+
+            ```json
+            {
+                "farmer_N": 農家の総数（必須）,
+                "existing_farmer_ids": [既存農家のID配列],
+                "ta_arearates": [田の面積割合配列（existing_farmer_idsと同じ順序）],
+                "hata_arearates": [畑の面積割合配列（existing_farmer_idsと同じ順序）]
+            }
+            ```
+
+            以下は指定例です：
+            1. 農家総数5人で、既存農家2人(ID:123,456)を維持したまま再編成
+               既存農家には田の50%ずつ、畑の40%と60%を割り当て
+            2. 新規に10人の農家で均等に農地を再編成
+
+            必要な条件をすべて指定してください。
+            """,
+            "function": reorganize_farmland
         }
     },
     2:{
+        1:{
+            "name": "全般",
+            "description": """
+            今はは未実装です
+            """,
+            "function": color_farmland
+        }
+    },
+    3: {
+        1:{
+            "name": "全般",
+            "description": """
+            今はは未実装です
+            """,
+            "function": color_farmland
+        }
+    },
+    4: {
         1:{
             "name": "全般",
             "description": """
