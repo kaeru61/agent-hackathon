@@ -17,6 +17,12 @@ langchain-google-genai = "^2.0.10"
 langgraph = "^0.2.74"
 pcse = "^6.0.9"
 ipykernel = "^6.29.5"
+geopandas = "^1.0.1"
+geojsonio = "^0.0.3"
+datetime = "^5.5"
+matplotlib = "^3.10.0"
+scipy = "^1.15.2"
+scikit-learn = "^1.6.1"
 
 
 [build-system]
