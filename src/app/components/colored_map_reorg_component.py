@@ -114,8 +114,8 @@ class ColorReorgMapComponent:
             geojson_data,
             style_function=lambda x: self.style_function(x, selected_param),
             tooltip=folium.GeoJsonTooltip(
-                fields=['Address', self.color_params[selected_param]['key']],
-                aliases=['住所', self.color_params[selected_param]['name']],
+                fields=['Address', self.color_params[selected_param]['key'], 'worktime_reduced', 'fuel_cost_reduced'],
+                aliases=['住所', self.color_params[selected_param]['name'], '作業時間削減', '燃料費削減'],
                 localize=True
             )
         ).add_to(self.map)

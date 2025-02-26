@@ -162,6 +162,26 @@ class Node:
                     "content": message_with_result,
                 })
                 return {"messages": state["messages"]}
+        
+            if state["current_role"] == 2 and state["current_task"] == 1:
+                message_with_result = f"""
+                <div style="font-family: Arial, sans-serif; line-height: 1.6;">
+                    <h2>タスクを実行しました</h2>
+                    <p>実行したタスク: <strong>{TASKS[state['current_role']][state['current_task']]['name']}</strong></p>
+                    <div style="border: 1px solid #ddd; padding: 10px; margin-top: 10px; background-color: #f9f9f9;">
+                        収量の予測
+                        <h2 style="text-decoration: underline; text-decoration-color: green; text-align: center;"><span style="font-size:250%; color: red;">{round(result["result"])}</span>&nbsp;&nbsp;kg/ha</h2>
+                    </div>
+                </div>
+                """
+                state["messages"].append({
+                    "role": "system",
+                    "content": message_with_result,
+                })
+                return {"messages": state["messages"]}
+        
+
+                
 
         except json.JSONDecodeError as e:
             print(f"JSON解析エラー: {e}")

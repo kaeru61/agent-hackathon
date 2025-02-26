@@ -8,6 +8,7 @@ import os
 import geopandas as gpd
 import math
 from functions.reorganize import Scenario, reorganize
+import random as rand
 
 def reorganize_farmland(params_json: str) -> dict:
     """
@@ -285,6 +286,32 @@ def fix_reorg(params_json: str) -> dict:
             "error": f"修正処理エラー: {str(e)}",
             "results": []
         }
+    
+def _mock_crop_simulation(type: str, lat: float, lon: float):
+    return rand.randint(-100, 1000)
+
+def crop_simulation(params_json: str):
+    try:
+        params = json.loads(params_json)
+        print(params)
+        if params.get("lat") is None or params.get("lon") is None:
+            print("緯度経度が指定されていません")
+            return ValueError("緯度経度が指定されていません")
+
+        # TODO: 収量予測の実装
+        result = _mock_crop_simulation(params.get("crop"), params.get("lat"), params.get("lon"))
+        return {
+            "status": "success",
+            "result": result
+        }
+    except json.JSONDecodeError as e:
+        print(f"JSONパースエラー: {str(e)}")
+        return {
+            "status": "error",
+            "error": f"JSONパースエラー: {str(e)}",
+            "results": []
+        }
+
 
 TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
     1: {
@@ -401,11 +428,21 @@ TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
     },
     2:{
         1:{
-            "name": "全般",
+            "name": "収量予測",
             "description": """
-            今はは未実装です
+            緯度経度、農作物を入力することによって終了を予測するエージェントです。
+            収量予測を行うための条件を以下のJsonフォーマットで指定してください：
+            住所が入力された場合、住所から緯度経度を取得してください.
+            わからない場合は実行的ないので、lat, lonを指定しないでください。
+            ```json
+            {
+                "lat": 緯度,
+                "lon": 経度,
+                "crop": 作物名
+            }
+            ```
             """,
-            "function": color_farmland
+            "function": crop_simulation
         }
     },
     3: {
