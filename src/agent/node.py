@@ -43,7 +43,7 @@ class Node:
         chain = prompt | state["model"].with_config(max_tokens=1) | StrOutputParser()
 
         is_question = chain.invoke({"prompt": state["prompt"]})
-        
+
         if int(is_question) == 1:
             return { "is_question": True, "current_role": 4 }
         else:
@@ -54,7 +54,7 @@ class Node:
         あなたは農業関連のタスクを統括するエージェントです。
         以下のユーザーからの指示をもとに、まずは求められた役割を選択してください。
         役割の番号のみを出力素てください。
-        
+
 
         指示: {prompt}
         役割一覧: {role_list}
@@ -112,34 +112,57 @@ class Node:
             prompt_template = ChatPromptTemplate.from_template(prompt)
             chain = prompt_template | state["model"] | StrOutputParser()
             task = TASKS[state["current_role"]][state["current_task"]]["description"]
-            
+
             # LLMからの応答を取得
             raw_response = chain.invoke({
                 "task": task,
                 "prompt": state.get("prompt", "")
             })
-            
+
             # JSON文字列の抽出
             json_str = raw_response.strip()
             if "```json" in json_str:
                 json_str = json_str.split("```json")[1].split("```")[0].strip()
             elif "```" in json_str:
                 json_str = json_str.split("```")[1].split("```")[0].strip()
-            
+
             # JSONパース
             filter_params = json.loads(json_str)
-            
+
             # タスク実行
             result = TASKS[state["current_role"]][state["current_task"]]["function"](json.dumps(filter_params))
 
-            if state["current_task"] == 2:
+            # 色付けの場合
+            if state["current_role"] == 1 and state["current_task"] == 2:
                 print(raw_response)
                 state["messages"].append({
                     "role": "system",
                     "content": f"タスクを実行しました。実行したタスク:{TASKS[state['current_role']][state['current_task']]['name']}",
                 })
                 return {"messages": state["messages"], "execute_tasks": int(raw_response) == 1}
-            
+
+            # 再編成の場合
+            if state["current_role"] == 1 and state["current_task"] == 3:
+                message_with_result = f"""
+                <div style="font-family: Arial, sans-serif; line-height: 1.6;">
+                    <h2>タスクを実行しました</h2>
+                    <p>実行したタスク: <strong>{TASKS[state['current_role']][state['current_task']]['name']}</strong></p>
+                    <div style="border: 1px solid #ddd; padding: 10px; margin-top: 10px; background-color: #f9f9f9;">
+                        <h3 style="color: #4CAF50;">農地集落全体でのコスト削減</h3>
+                        一ヶ月あたりの削減量<br>
+                        総移動距離
+                        <h2 style="text-decoration: underline; text-decoration-color: green; text-align: center;"><span style="font-size:250%; color: red;">{round(result["analysis_result"].total_distance_reduced)}</span>&nbsp;&nbsp;km</h2>
+                        CO2排出量
+                        <h2 style="text-decoration: underline; text-decoration-color: green; text-align: center;"><span style="font-size:250%; color: red;">{round(result["analysis_result"].total_co2_reduced)}</span>&nbsp;&nbsp;kg</h2>
+                    </div>
+                </div>
+                """
+                state["messages"].append({
+                    "role": "system",
+                    "content": message_with_result,
+                })
+                return {"messages": state["messages"]}
+
         except json.JSONDecodeError as e:
             print(f"JSON解析エラー: {e}")
             result = {"error": str(e)}
@@ -151,7 +174,7 @@ class Node:
             "role": "system",
             "content": f"タスクを実行しました。実行したタスク:{TASKS[state['current_role']][state['current_task']]['name']}",
         })
-        
+
         return {"messages": state["messages"]}
 
     def _generate_message(self, state: State) -> dict[str, str]:
@@ -169,7 +192,7 @@ class Node:
         task_list = INPUTS
 
         chain = prompt | state["model"]
-        
+
         response = chain.invoke({"prompt": state["prompt"], "task_list": task_list})
 
         # responseのcontent部分のみを切り出す

@@ -12,10 +12,10 @@ from functions.reorganize import Scenario, reorganize
 def reorganize_farmland(params_json: str) -> dict:
     """
     農地再編成関数
-    
+
     Args:
         params_json (str): JSON形式の再編成条件
-        
+
     Returns:
         dict: 再編成結果
     """
@@ -23,22 +23,22 @@ def reorganize_farmland(params_json: str) -> dict:
         # JSONパース
         params = json.loads(params_json)
         print(params)
-        
+
         # GeoJSONデータの読み込み
         with open('src/app/ref/map.geojson', 'r', encoding='utf-8') as f:
             geojson_data = json.load(f)
         print("GeoJSONデータを読み込みました")
-        
+
         # バックアップ作成
         src_path = 'src/app/ref/map-reorg.geojson'
         if os.path.exists(src_path):
             time = datetime.now().strftime('%Y%m%d%H%M%S')
             dest_path = f'src/app/ref/backup/map-reorg-{time}.geojson'
         print(f"バックアップを作成します: {src_path} -> {dest_path}")
-        
+
         shutil.copy(src_path, dest_path)
         print(f"ファイルをコピーしました: {src_path} -> {dest_path}")
-        
+
         # Scenarioデータクラスへの変換
         scenario = Scenario(
             farmer_N=params.get("farmer_N", 0),
@@ -46,15 +46,15 @@ def reorganize_farmland(params_json: str) -> dict:
             ta_arearates=params.get("ta_arearates", []),
             hata_arearates=params.get("hata_arearates", [])
         )
-        
+
         # 農地再編成の実行
-        reorganized_geojson = reorganize(geojson_data, scenario)
+        reorganized_geojson, analysis_result = reorganize(geojson_data, scenario)
         print("再編成完了")
-        
+
         # 再編成結果をファイルに保存
         with open('src/app/ref/map-reorg.geojson', 'w', encoding='utf-8') as f:
             json.dump(reorganized_geojson, f, ensure_ascii=False, indent=2)
-        
+
         return {
             "status": "success",
             "scenario_applied": {
@@ -63,9 +63,10 @@ def reorganize_farmland(params_json: str) -> dict:
                 "ta_arearates": scenario.ta_arearates,
                 "hata_arearates": scenario.hata_arearates
             },
-            "results": reorganized_geojson
+            "result_geojson": reorganized_geojson,
+            "analysis_result": analysis_result
         }
-        
+
     except json.JSONDecodeError as e:
         return {
             "status": "error",
@@ -91,10 +92,10 @@ def reorganize_farmland(params_json: str) -> dict:
 def filter_farmland(params_json: str) -> dict:
     """
     農地フィルタリング関数
-    
+
     Args:
         params_json (str): JSON形式の検索条件
-        
+
     Returns:
         dict: フィルタリング結果
     """
@@ -102,7 +103,7 @@ def filter_farmland(params_json: str) -> dict:
         # JSONパース
         params = json.loads(params_json)
         print(params)
-        
+
         # 検索条件の構築
         search_criteria = FieldSearchCriteria(
             farmer_id=params.get("farmer_id"),
@@ -116,7 +117,7 @@ def filter_farmland(params_json: str) -> dict:
             classification=params.get("classification"),
             settlement=params.get("settlement")
         )
-        
+
         # GeoJSONデータの読み込み
         with open('src/app/ref/map-row.geojson', 'r', encoding='utf-8') as f:
             geojson_data = json.load(f)
@@ -124,13 +125,13 @@ def filter_farmland(params_json: str) -> dict:
         src_path = 'src/app/ref/map.geojson'
         time = datetime.now().strftime('%Y%m%d%H%M%S')
         dest_path = f'src/app/ref/backup/map-{time}.geojson'
-        
+
         shutil.copy(src_path, dest_path)
         print(f"ファイルをコピーしました: {src_path} -> {dest_path}")
-        
+
         #  検索結果を取得
         filtered_features = search_fields(geojson_data, search_criteria)
-        
+
         # 新しいGeoJSONを構築
         filtered_geojson = {
             "type": "FeatureCollection",
@@ -147,7 +148,7 @@ def filter_farmland(params_json: str) -> dict:
         # フィルタリング結果をファイルに保存
         with open('src/app/ref/map.geojson', 'w', encoding='utf-8') as f:
             json.dump(filtered_geojson, f, ensure_ascii=False, indent=2)
-        
+
         return {
             "status": "success",
             "filters_applied": {
@@ -163,7 +164,7 @@ def filter_farmland(params_json: str) -> dict:
             },
             "results": filtered_geojson
         }
-        
+
     except json.JSONDecodeError as e:
         return {
             "status": "error",
@@ -185,7 +186,7 @@ def filter_farmland(params_json: str) -> dict:
             "filters_applied": None,
             "results": []
         }
-    
+
 def color_farmland(data):
     pass
 
