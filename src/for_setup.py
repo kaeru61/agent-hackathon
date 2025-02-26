@@ -1,7 +1,10 @@
 import os
 import shutil
-# backupフォルダを作る
-os.mkdir('src/app/ref/backup')
+# backupフォルダがない時、作成する
+if not os.path.exists('backup'):
+    os.makedirs('backup')
+    print("backupフォルダを作成しました")
+
 
 # map-row.geojsonをコピーしてmap.geojsonとmap-reorg.geojsonを作る
 src_path = 'src/app/ref/map-row.geojson'
