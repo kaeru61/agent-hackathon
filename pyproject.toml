@@ -4,25 +4,9 @@ version = "0.1.0"
 description = ""
 authors = ["shinybell <raffinement.shun.2004@gmail.com>"]
 readme = "README.md"
-package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.10"
-streamlit = "^1.42.2"
-dotenv = "^0.9.9"
-folium = "^0.19.4"
-streamlit-folium = "^0.24.0"
-markdown = "^3.7"
-langchain-google-genai = "^2.0.10"
-langgraph = "^0.2.74"
-pcse = "^6.0.9"
-ipykernel = "^6.29.5"
-geopandas = "^1.0.1"
-geojsonio = "^0.0.3"
-datetime = "^5.5"
-matplotlib = "^3.10.0"
-scipy = "^1.15.2"
-scikit-learn = "^1.6.1"
 
 
 [build-system]
