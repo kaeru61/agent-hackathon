@@ -6,17 +6,11 @@ from pcse.base import ParameterProvider
 from pcse.input import NASAPowerWeatherDataProvider
 
 class CropSimulation:
-    crops = ['wheat', 'maize', 'barley', 'sorghum', 'soybean', 'rice', 'millet', 'sunflower', 'potato']
+    crops = ['wheat', 'rice', 'potato']
     crop_varieties = {
-        'wheat': ['Aragorn', 'Soissons', 'Apache', 'Caphorn', 'Cordiale'],
-        'maize': ['Pioneer', 'DKC', 'Agrimax', 'KWS', 'LG'],
-        'barley': ['Sebastian', 'Igri', 'KWS', 'Quench', 'Talisman'],
-        'sorghum': ['Pioneer', 'NK', 'Agrimax', 'KWS', 'LG'],
-        'soybean': ['Pioneer', 'NK', 'Agrimax', 'KWS', 'LG'],
-        'rice': ['Rice_501', 'NK', 'Agrimax', 'KWS', 'LG'],
-        'millet': ['Pioneer', 'NK', 'Agrimax', 'KWS', 'LG'],
-        'sunflower': ['Pioneer', 'NK', 'Agrimax', 'KWS', 'LG'],
-        'potato': ['Pioneer', 'NK', 'Agrimax', 'KWS', 'LG']
+        'wheat': ['Winter_wheat_101', 'Winter_wheat_102', 'Winter_wheat_103', 'Winter_wheat_104', 'Winter_wheat_105', 'Winter_wheat_106', 'Winter_wheat_107', 'bermude', 'apache'],
+        'rice': ['Rice_501', 'Rice_HYV_IR8', 'Rice_IR64616H_DS', 'Rice_IR64616H_WS', 'Rice_IR64', 'Rice_IR72', 'Rice_IR72_DS', 'Rice_IR72_WS', 'Rice_IR8A'],
+        'potato': ['Potato_701', 'Potato_702', 'Potato_703', 'Potato_704', 'Innovator', 'Fontane', 'Markies', 'Premiere', 'Festien']
     }
 
     def __init__(self, crop_name, crop_variety, coordinates, soil_filename):
@@ -56,10 +50,32 @@ class CropSimulation:
         df = pd.DataFrame(wdfost.get_output())
         return df
 
+def run_simulation(crop_name: str, lat: float, lon: float) -> float:
+    """シミュレーションを実行し、結果を返す
+
+    Args:
+        crop_name (str): 作物名
+        lat (float): 緯度
+        lon (float): 経度
+
+    Returns:
+        float: シミュレーション結果(1haあたりの収量)
+    """
+    crop_variety = CropSimulation.crop_varieties[crop_name][0]
+    soil_filename = "ec3.soil"
+    coordinates = [lon, lat]
+    simulation = CropSimulation(crop_name, crop_variety, coordinates, soil_filename)
+    df = simulation.run_simulation()
+    # 最終日のTAGPを取得
+    print(df)
+    result = df.loc[df.index[-1], "TWSO"]
+    return result
+
 
 # Example usage
 if __name__ == "__main__":
     coordinates = [140.3819, 36.377]
-    simulation = CropSimulation("rice", "Rice_501", coordinates, "ec3.soil")
-    df = simulation.run_simulation()
-    print(df.tail())
+    crop_name = "potato"
+    lon, lat = coordinates
+    result = run_simulation(crop_name, lat, lon)
+    print(f"Simulation result: {result}")
