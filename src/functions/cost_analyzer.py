@@ -24,8 +24,8 @@ class AnalysisResult:
     farmers_worktime_reduced: Dict[str, float]
     farmers_fuel_cost_reduced: Dict[str, float]
 
-def run_analysis(geojson_path: str, existing_farmer_ids: list[str]) -> AnalysisResult:
-    analyzer = ResourceAnalyzer(geojson_path)
+def run_analysis(gdf: gpd.GeoDataFrame, existing_farmer_ids: list[str]) -> AnalysisResult:
+    analyzer = ResourceAnalyzer(gdf)
     total_stats, total_distance = analyzer.run_total_analysis()
     total_co2_reduced = total_distance * 0.28  # 軽トラのCO2排出量は1kmあたり0.28kg
 
@@ -48,8 +48,8 @@ def run_analysis(geojson_path: str, existing_farmer_ids: list[str]) -> AnalysisR
 
 
 class ResourceAnalyzer:
-    def __init__(self, geojson_path):
-        self.geojson_path = geojson_path
+    def __init__(self, gdf: gpd.GeoDataFrame):
+        self.gdf = gdf
         self.farmlands = self.load_data()
 
     def load_data(self) -> dict[str, list[gpd.GeoSeries]]:
@@ -57,9 +57,8 @@ class ResourceAnalyzer:
         Returns:
             dict: FarmerIndicationNumberHashをキーとし、その農地のリストを値とする辞書
         """
-        gdf = gpd.read_file(self.geojson_path)
         farms = {}
-        for _, row in gdf.iterrows():
+        for _, row in self.gdf.iterrows():
             farmer_id = row['FarmerIndicationNumberHash'] if row['FarmerIndicationNumberHash'] is not None else 'unknown'
             geometry = row['geometry']
 
