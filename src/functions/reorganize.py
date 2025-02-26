@@ -9,17 +9,17 @@ from shapely.geometry import MultiPolygon, Polygon
 import pandas as pd
 from sklearn.cluster import DBSCAN
 from scipy.spatial import KDTree
-from functions.cost_analyzer import AnalysisResult, run_analysis
+from functions.cost_analyzer import AnalysisResult, run_analysis ##################
 
 
 
 @dataclass
 class Scenario:
     """シナリオを定義するデータクラス"""
-    farmer_N: int
-    existing_farmer_ids: list[str]
-    ta_arearates: list[float]
-    hata_arearates: list[float]
+    ta_farmer_N: int
+    hata_farmer_N: int
+    ta_exfarmer_ids_and_rates: Dict[str, float]
+    hata_exfarmer_ids_and_rates: Dict[str, float]
 
 def reorganize(
     geojson_data: Dict[str, Any],
@@ -34,6 +34,24 @@ def reorganize(
     Returns:
         Tuple[Dict[str, Any], AnalysisResult]: 再編成後のGeoJSONデータ、コスト分析結果
     """
+    # 新規農家の数
+    print(scenario.ta_farmer_N)
+    print(scenario.hata_farmer_N)
+    print(scenario.ta_exfarmer_ids_and_rates)
+    print(scenario.hata_exfarmer_ids_and_rates)
+
+    ta_newfarmer_N = scenario.ta_farmer_N - len(scenario.ta_exfarmer_ids_and_rates.keys())
+    hata_newfarmer_N = scenario.hata_farmer_N - len(scenario.hata_exfarmer_ids_and_rates.keys())
+    print("田の新規農家数："+str(ta_newfarmer_N)+"畑の新規農家数："+str(hata_newfarmer_N))
+
+    # 新規農家は固定で0.1
+    ta_arearates = _scale_ratios([r for r in scenario.ta_exfarmer_ids_and_rates.values()], 1-ta_newfarmer_N*0.1)
+    ta_arearates.extend([0.1]*ta_newfarmer_N)
+    hata_arearates = _scale_ratios([r for r in scenario.hata_exfarmer_ids_and_rates.values()], 1-hata_newfarmer_N*0.1)
+    hata_arearates.extend([0.1]*hata_newfarmer_N)
+    print("田：",ta_arearates)
+    print("畑：",hata_arearates)
+
     # GeoDataFrameを作成
     gdf = gpd.GeoDataFrame.from_features(geojson_data)
 
@@ -47,29 +65,29 @@ def reorganize(
     ta_gdf.set_crs(epsg=4326, inplace=True)  # WGS84座標系を設定
     hata_gdf.set_crs(epsg=4326, inplace=True)  # WGS84座標系を設定
 
-    # 田畑ごとに農家のbasepointをDict形式で取得
-    ta_ex_basepoint = {ID: _getbasepoint(ta_gdf, ID) for ID in scenario.existing_farmer_ids}
-    hata_ex_basepoint = {ID: _getbasepoint(hata_gdf, ID) for ID in scenario.existing_farmer_ids}
+    # 田畑ごとに農家のbasepointをexfarmer_ids_and_ratesから取得
+    ta_ex_basepoint = {ID: _getbasepoint(ta_gdf, ID) for ID in scenario.ta_exfarmer_ids_and_rates.keys()}
+    hata_ex_basepoint = {ID: _getbasepoint(hata_gdf, ID) for ID in scenario.hata_exfarmer_ids_and_rates.keys()}
 
     # 区画数を取得
-    ta_area_n = _find_partition_count(scenario.ta_arearates)
-    hata_area_n = _find_partition_count(scenario.hata_arearates)
+    ta_area_n = _find_partition_count(ta_arearates)
+    hata_area_n = _find_partition_count(hata_arearates)
     print("田の区画数："+str(ta_area_n)+"畑の区画数："+str(hata_area_n))
 
     # 田畑ごとに区画化
     ta_gdf_poly, ta_gdf_multipoly = _partition(ta_gdf, ta_area_n)
     hata_gdf_poly, hata_gdf_multipoly = _partition(hata_gdf, hata_area_n)
 
-    ta_area_nums = {ID: math.ceil(r * ta_area_n) for ID, r in zip(scenario.existing_farmer_ids, scenario.ta_arearates)}
-    hata_area_nums = {ID: math.ceil(r * hata_area_n) for ID, r in zip(scenario.existing_farmer_ids, scenario.hata_arearates)}
+    ta_area_nums = {ID: math.ceil(r * ta_area_n) for ID, r in zip(scenario.ta_exfarmer_ids_and_rates.keys(), ta_arearates)}
+    hata_area_nums = {ID: math.ceil(r * hata_area_n) for ID, r in zip(scenario.hata_exfarmer_ids_and_rates.keys(), hata_arearates)}
 
     # 現農家の配置
     ta_gdf_poly, ta_gdf_multipoly = _put_existing_farmers(ta_gdf_poly, ta_gdf_multipoly, ta_ex_basepoint, ta_area_nums)
     hata_gdf_poly, hata_gdf_multipoly = _put_existing_farmers(hata_gdf_poly, hata_gdf_multipoly, hata_ex_basepoint, hata_area_nums)
 
     # 新規農家の配置
-    ta_gdf_poly, ta_gdf_multipoly = _put_new_farmers(ta_gdf_poly, ta_gdf_multipoly, scenario.farmer_N - len(scenario.existing_farmer_ids))
-    hata_gdf_poly, hata_gdf_multipoly = _put_new_farmers(hata_gdf_poly, hata_gdf_multipoly, scenario.farmer_N - len(scenario.existing_farmer_ids))
+    ta_gdf_poly, ta_gdf_multipoly = _put_new_farmers(ta_gdf_poly, ta_gdf_multipoly, scenario.ta_farmer_N - len(scenario.ta_exfarmer_ids_and_rates))
+    hata_gdf_poly, hata_gdf_multipoly = _put_new_farmers(hata_gdf_poly, hata_gdf_multipoly, scenario.hata_farmer_N - len(scenario.hata_exfarmer_ids_and_rates))
 
     # CRS84に変換
     ta_gdf_poly = ta_gdf_poly.to_crs(epsg=4326)
@@ -78,7 +96,8 @@ def reorganize(
     hata_gdf_multipoly = hata_gdf_multipoly.to_crs(epsg=4326)
 
     # コスト分析結果をgdfに格納(現在はpolyのみ)
-    result, ta_gdf_poly, hata_gdf_poly = _excute_analysis(gdf, ta_gdf_poly, hata_gdf_poly, scenario.existing_farmer_ids)
+    all_exfarmer_ids = list(set(scenario.ta_exfarmer_ids_and_rates.keys()).union(set(scenario.hata_exfarmer_ids_and_rates.keys())))
+    result, ta_gdf_poly, hata_gdf_poly = _excute_analysis(gdf, ta_gdf_poly, hata_gdf_poly, all_exfarmer_ids)
 
     # GeoJSONデータに変換
     # geojson_data = {
@@ -91,6 +110,27 @@ def reorganize(
         "features": list(ta_gdf_poly.__geo_interface__["features"]) + list(hata_gdf_poly.__geo_interface__["features"])
     }
     return poly_geojson_data, result
+
+def _scale_ratios(ratios: Tuple[int], total: float) -> list[float]:
+    """
+    整数比 ratios を 0.1 刻みの比にスケーリングし、合計を total にする
+    """
+    step = 10  # 0.1刻みで扱うために10倍する
+    total_int = int(total * step)  # 合計を整数値で処理
+
+    # 整数比の合計
+    ratio_sum = sum(ratios)
+
+    # 各比率をスケーリング（total に合計がなるように変換）
+    scaled_ratios = [round(r / ratio_sum * total_int) for r in ratios]
+
+    # 合計が total_int になっているか調整（四捨五入の誤差補正）
+    diff = total_int - sum(scaled_ratios)
+    for i in range(abs(diff)):
+        scaled_ratios[i % len(scaled_ratios)] += 1 if diff > 0 else -1
+
+    # 0.1刻みの比に戻す
+    return [r / step for r in scaled_ratios]
 
 def _create_tahata_gdf(
     gdf: gpd.GeoDataFrame,
@@ -483,10 +523,16 @@ if __name__ == "__main__":
     with open("../../notebooks/data/geojson_filtered_by_settlement/筑地.geojson") as f:
         geojson_data = json.load(f)
     scenario = Scenario(
-        farmer_N=6,
-        existing_farmer_ids=["2dacba93d45b0f46a25b29b985bd90e2", "10aad9b486abee43973bb555cc3362c2", "7db8af145bda49552f855ba395906a2f"],
-        ta_arearates=[0.3, 0.2, 0.2, 0.1, 0.1, 0.1],
-        hata_arearates=[0.3, 0.2, 0.2, 0.1, 0.1, 0.1]
+        ta_farmer_N=6,
+        hata_farmer_N=3,
+        ta_exfarmer_ids_and_rates={
+            "2dacba93d45b0f46a25b29b985bd90e2": 3,
+            "10aad9b486abee43973bb555cc3362c2": 2,
+            "7db8af145bda49552f855ba395906a2f": 2
+        },
+        hata_exfarmer_ids_and_rates={
+            "2dacba93d45b0f46a25b29b985bd90e2": 1
+        }
     )
     test_reorganized_geojson, result = reorganize(geojson_data, scenario)
     # 新しいGeoJSONを保存

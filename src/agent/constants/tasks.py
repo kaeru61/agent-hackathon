@@ -41,10 +41,10 @@ def reorganize_farmland(params_json: str) -> dict:
 
         # Scenarioデータクラスへの変換
         scenario = Scenario(
-            farmer_N=params.get("farmer_N", 0),
-            existing_farmer_ids=params.get("existing_farmer_ids", []),
-            ta_arearates=params.get("ta_arearates", []),
-            hata_arearates=params.get("hata_arearates", [])
+            ta_farmer_N=params.get("ta_farmer_N", 0),
+            hata_farmer_N=params.get("hata_farmer_N", 0),
+            ta_exfarmer_ids_and_rates=params.get("ta_exfarmer_ids_and_rates", {}),
+            hata_exfarmer_ids_and_rates=params.get("hata_exfarmer_ids_and_rates", {})
         )
 
         # 農地再編成の実行
@@ -58,10 +58,10 @@ def reorganize_farmland(params_json: str) -> dict:
         return {
             "status": "success",
             "scenario_applied": {
-                "farmer_N": scenario.farmer_N,
-                "existing_farmer_ids": scenario.existing_farmer_ids,
-                "ta_arearates": scenario.ta_arearates,
-                "hata_arearates": scenario.hata_arearates
+                "ta_farmer_N": scenario.ta_farmer_N,
+                "hata_farmer_N": scenario.hata_farmer_N,
+                "ta_exfarmer_ids_and_rates": scenario.ta_exfarmer_ids_and_rates,
+                "hata_exfarmer_ids_and_rates": scenario.hata_exfarmer_ids_and_rates
             },
             "result_geojson": reorganized_geojson,
             "analysis_result": analysis_result
@@ -193,10 +193,10 @@ def color_farmland(data):
 def fix_reorg(params_json: str) -> dict:
     """
     農地再編成後の修正関数
-    
+
     Args:
         params_json (str): JSON形式の修正条件
-        
+
     Returns:
         dict: 修正結果
     """
@@ -204,34 +204,34 @@ def fix_reorg(params_json: str) -> dict:
         # JSONパース
         params = json.loads(params_json)
         print(params)
-        
+
         # GeoJSONデータの読み込み
         with open('src/app/ref/map-reorg.geojson', 'r', encoding='utf-8') as f:
             geojson_data = json.load(f)
-        
+
         # バックアップ作成
         src_path = 'src/app/ref/map-reorg.geojson'
         time = datetime.now().strftime('%Y%m%d%H%M%S')
         dest_path = f'src/app/ref/backup/map-reorg-{time}.geojson'
-        
+
         shutil.copy(src_path, dest_path)
         print(f"ファイルをコピーしました: {src_path} -> {dest_path}")
-        
+
         # 特定の農地の情報を更新
         target_address = params.get("target_address")
         new_farmer_id = params.get("new_farmer_id")
         new_land_type = params.get("new_farm_type")
-        
+
         updated_count = 0
         updates = []
-        
+
         for feature in geojson_data['features']:
             properties = feature['properties']
             if properties['Address'] == target_address:
                 # 農家IDを更新
                 old_farmer_id = properties['FarmerIndicationNumberHash']
                 properties['FarmerIndicationNumberHash'] = new_farmer_id
-                
+
                 # 農地種類の更新（指定がある場合のみ）
                 if new_land_type is not None:
                     old_type = properties.get('ClassificationOfLand', '')
@@ -243,9 +243,9 @@ def fix_reorg(params_json: str) -> dict:
                         'old_type': '田' if old_type == '1' else '畑',
                         'new_type': '田' if new_land_type == '1' else '畑'
                     })
-                
+
                 updated_count += 1
-        
+
         if updated_count == 0:
             return {
                 "status":
@@ -340,17 +340,38 @@ TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
 
             ```json
             {
-                "farmer_N": 農家の総数（必須）,
-                "existing_farmer_ids": [既存農家のID配列],
-                "ta_arearates": [田の面積割合配列（existing_farmer_idsと同じ順序）],
-                "hata_arearates": [畑の面積割合配列（existing_farmer_idsと同じ順序）]
+                    "ta_farmer_N" : 田の農家総数,
+                    "hata_farmer_N" : 畑の農家総数,
+                    "ta_exfarmer_ids_and_rates": 田の既存農家IDと割り当て比(整数),
+                    "hata_exfarmer_ids_and_rates": 畑の既存農家IDと割り当て比(整数),
             }
             ```
 
             以下は指定例です：
-            1. 農家総数5人で、既存農家2人(ID:123,456)を維持したまま再編成
-               既存農家には田の50%ずつ、畑の40%と60%を割り当て
-            2. 新規に10人の農家で均等に農地を再編成
+            田の農家数は5
+            畑の農家数は2
+            田の既存農家と面積割合は以下の通り
+            "2dacba93d45b0f46a25b29b985bd90e2": 3
+            "10aad9b486abee43973bb555cc3362c2": 2
+            "7db8af145bda49552f855ba395906a2f": 2
+            畑の既存農家と面積割合は以下の通り
+            "2dacba93d45b0f46a25b29b985bd90e2": 1
+
+            この時JSONは以下のようになります。
+            ```json
+            {
+                "ta_farmer_N": 5,
+                "hata_farmer_N": 2,
+                "ta_exfarmer_ids_and_rates": {
+                    "2dacba93d45b0f46a25b29b985bd90e2": 3,
+                    "10aad9b486abee43973bb555cc3362c2": 2,
+                    "7db8af145bda49552f855ba395906a2f": 2
+                },
+                "hata_exfarmer_ids_and_rates": {
+                    "2dacba93d45b0f46a25b29b985bd90e2": 1
+                }
+            }
+            ```
 
             必要な条件をすべて指定してください。
             """,
