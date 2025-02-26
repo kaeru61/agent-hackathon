@@ -190,6 +190,102 @@ def filter_farmland(params_json: str) -> dict:
 def color_farmland(data):
     pass
 
+def fix_reorg(params_json: str) -> dict:
+    """
+    農地再編成後の修正関数
+    
+    Args:
+        params_json (str): JSON形式の修正条件
+        
+    Returns:
+        dict: 修正結果
+    """
+    try:
+        # JSONパース
+        params = json.loads(params_json)
+        print(params)
+        
+        # GeoJSONデータの読み込み
+        with open('src/app/ref/map-reorg.geojson', 'r', encoding='utf-8') as f:
+            geojson_data = json.load(f)
+        
+        # バックアップ作成
+        src_path = 'src/app/ref/map-reorg.geojson'
+        time = datetime.now().strftime('%Y%m%d%H%M%S')
+        dest_path = f'src/app/ref/backup/map-reorg-{time}.geojson'
+        
+        shutil.copy(src_path, dest_path)
+        print(f"ファイルをコピーしました: {src_path} -> {dest_path}")
+        
+        # 特定の農地の情報を更新
+        target_address = params.get("target_address")
+        new_farmer_id = params.get("new_farmer_id")
+        new_land_type = params.get("new_farm_type")
+        
+        updated_count = 0
+        updates = []
+        
+        for feature in geojson_data['features']:
+            properties = feature['properties']
+            if properties['Address'] == target_address:
+                # 農家IDを更新
+                old_farmer_id = properties['FarmerIndicationNumberHash']
+                properties['FarmerIndicationNumberHash'] = new_farmer_id
+                
+                # 農地種類の更新（指定がある場合のみ）
+                if new_land_type is not None:
+                    old_type = properties.get('ClassificationOfLand', '')
+                    properties['ClassificationOfLand'] = new_land_type
+                    properties['ClassificationOfLandCodeName'] = '田' if new_land_type == '1' else '畑'
+                    updates.append({
+                        'address': properties['Address'],
+                        'old_farmer_id': old_farmer_id,
+                        'old_type': '田' if old_type == '1' else '畑',
+                        'new_type': '田' if new_land_type == '1' else '畑'
+                    })
+                
+                updated_count += 1
+        
+        if updated_count == 0:
+            return {
+                "status":
+                "error",
+                "error": f"指定された住所 '{target_address}' に一致する農地が見つかりませんでした。",
+                "results": []
+            }
+        else:
+            with open('src/app/ref/map-reorg.geojson', 'w', encoding='utf-8') as f:
+                json.dump(geojson_data, f, ensure_ascii=False, indent=2)
+            message = f"{updated_count}件の農地情報を更新しました。"
+            if updates:
+                message += "\n農地種類の変更内容:"
+                for update in updates:
+                    message += f"\n- {update['address']}: {update['old_type']} → {update['new_type']}"
+                return {
+                    "status": "success",
+                    "message": message,
+                    "updated_count": updated_count,
+                    "land_type_updates": updates
+                }
+    except json.JSONDecodeError as e:
+        return {
+            "status": "error",
+            "error": f"JSONパースエラー: {str(e)}",
+            "results": []
+        }
+    except ValueError as e:
+        return {
+            "status": "error",
+            "error": f"パラメータ変換エラー: {str(e)}",
+            "results": []
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "error": f"修正処理エラー: {str(e)}",
+            "results": []
+        }
+
 TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
     1: {
         1: {
@@ -259,6 +355,27 @@ TASKS: dict[int, dict[int, dict[str, Union[str, Callable]]]] = {
             必要な条件をすべて指定してください。
             """,
             "function": reorganize_farmland
+        },
+        4: {
+            "name": "再編成した農地の修正",
+            "description": """
+            農地の再編成を行うエージェントです。
+            特に再編成した農地に関して、特定の区画の所有者と農地の種類を変更したい場合に修正を実行するエージェントです。
+            農地の修正をすrための条件を以下のJsonフォーマットで指定してください：
+            ```json
+            {
+                "target_address": "変更したい農地の住所",
+                "new_farmer_id": "変更後の農地の所有者のID",
+                "new_farm_type": "変更後の農地の種類",
+            }
+            ```
+
+            以下は指定例です：
+            1. 住所が1234の農地の所有者を5678に変更
+            2. 住所が1234の農地の種類を田から畑に変更
+            3. 住所が1234の農地の所有者を5678に変更し、種類を田から畑に変更
+            """,
+            "function": fix_reorg
         }
     },
     2:{

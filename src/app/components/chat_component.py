@@ -90,14 +90,27 @@ class ChatComponent:
                     font-size: 0.85em;
                     padding: 1px 4px;
                 }
+                    
+                /* テキストエリアのスタイル調整 */
+                .stTextArea textarea {
+                    min-height: 100px;  /* 最小の高さ */
+                    font-size: 0.9em;
+                    line-height: 1.5;
+                    padding: 10px;
+                    border-radius: 4px;
+                    resize: vertical;  /* 垂直方向のリサイズのみ許可 */
+                }
             </style>
         """, unsafe_allow_html=True)
 
         # 入力エリア（最上部に固定）
         with st.container():
-            prompt = st.text_input(
+            prompt = st.text_area(
                 "質問を入力してください",
-                key=f"chat_input_{len(st.session_state.messages)}"
+                key=f"chat_input_{len(st.session_state.messages)}",
+                height=100,  # 初期の高さ（ピクセル）
+                max_chars=None,  # 文字数制限なし
+                placeholder="ここに質問を入力してください...",  # プレースホルダーテキスト
             )
 
         # メッセージ表示エリア（新しいメッセージから表示）
