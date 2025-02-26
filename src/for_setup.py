@@ -1,8 +1,8 @@
 import os
 import shutil
 # backupフォルダがない時、作成する
-if not os.path.exists('backup'):
-    os.makedirs('backup')
+if not os.path.exists('/src/app/ref/backup'):
+    os.makedirs('/src/app/ref/backup')
     print("backupフォルダを作成しました")
 
 
