@@ -284,7 +284,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -399,7 +399,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -514,7 +514,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -629,7 +629,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -744,7 +744,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -859,7 +859,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -974,7 +974,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -1089,7 +1089,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -1204,7 +1204,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -1229,7 +1229,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -1319,7 +1319,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -1344,7 +1344,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -1434,7 +1434,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -1459,7 +1459,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -1549,7 +1549,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -1664,7 +1664,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -1779,7 +1779,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -1894,7 +1894,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2009,7 +2009,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2034,7 +2034,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -2124,7 +2124,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2149,7 +2149,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -2239,7 +2239,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2264,7 +2264,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -2354,7 +2354,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2379,7 +2379,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -2469,7 +2469,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2494,7 +2494,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -2584,7 +2584,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2609,7 +2609,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -2699,7 +2699,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2724,7 +2724,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -2814,7 +2814,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2839,7 +2839,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -2929,7 +2929,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -2954,7 +2954,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -3044,7 +3044,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -3069,7 +3069,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -3159,7 +3159,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -3184,7 +3184,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -3278,7 +3278,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -3393,7 +3393,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -3418,7 +3418,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -3635,7 +3635,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -3762,7 +3762,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -3885,7 +3885,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -3910,7 +3910,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -4008,7 +4008,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -4033,7 +4033,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -4127,7 +4127,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -4152,7 +4152,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -4242,7 +4242,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -4267,7 +4267,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -4357,7 +4357,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -4382,7 +4382,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -4472,7 +4472,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -4497,7 +4497,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -4603,7 +4603,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -4628,7 +4628,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -5087,7 +5087,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -5112,7 +5112,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -5202,7 +5202,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -5227,7 +5227,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -5317,7 +5317,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -5342,7 +5342,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -5432,7 +5432,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -5457,7 +5457,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -5547,7 +5547,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -5572,7 +5572,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -5662,7 +5662,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -5687,7 +5687,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -6364,7 +6364,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -6389,7 +6389,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -6824,7 +6824,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -6939,7 +6939,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -6964,7 +6964,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -7054,7 +7054,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -7169,7 +7169,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -7194,7 +7194,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -7284,7 +7284,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -7309,7 +7309,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -7419,7 +7419,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -7558,7 +7558,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -7673,7 +7673,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -7698,7 +7698,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -7792,7 +7792,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -7817,7 +7817,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -7911,7 +7911,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -7936,7 +7936,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -8030,7 +8030,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -8055,7 +8055,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -8145,7 +8145,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -8170,7 +8170,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -8260,7 +8260,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -8285,7 +8285,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -8375,7 +8375,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -8400,7 +8400,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -8490,7 +8490,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -8515,7 +8515,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -8609,7 +8609,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -8634,7 +8634,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -8728,7 +8728,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -8753,7 +8753,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -8851,7 +8851,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -8876,7 +8876,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -8962,7 +8962,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -9081,7 +9081,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -9106,7 +9106,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -9196,7 +9196,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -9221,7 +9221,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -9335,7 +9335,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -9360,7 +9360,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -9450,7 +9450,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -9475,7 +9475,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -9581,7 +9581,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -9606,7 +9606,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -9712,7 +9712,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -9737,7 +9737,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -9847,7 +9847,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -9872,7 +9872,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -9962,7 +9962,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -9987,7 +9987,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -10081,7 +10081,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -10106,7 +10106,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -10208,7 +10208,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -10233,7 +10233,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -10323,7 +10323,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -10348,7 +10348,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -10438,7 +10438,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -10463,7 +10463,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -10569,7 +10569,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -10594,7 +10594,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -10692,7 +10692,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -10717,7 +10717,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -10811,7 +10811,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -10836,7 +10836,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -10930,7 +10930,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -10955,7 +10955,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -11057,7 +11057,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -11082,7 +11082,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -11172,7 +11172,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -11197,7 +11197,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -11291,7 +11291,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -11316,7 +11316,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -11406,7 +11406,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -11431,7 +11431,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -11521,7 +11521,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -11546,7 +11546,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -11644,7 +11644,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -11669,7 +11669,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -11759,7 +11759,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -11784,7 +11784,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -11874,7 +11874,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -11899,7 +11899,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -11989,7 +11989,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -12014,7 +12014,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -12112,7 +12112,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -12137,7 +12137,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -12227,7 +12227,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -12252,7 +12252,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -12342,7 +12342,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -12367,7 +12367,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -12457,7 +12457,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -12482,7 +12482,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -12580,7 +12580,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -12605,7 +12605,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -12695,7 +12695,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -12720,7 +12720,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -12810,7 +12810,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -12835,7 +12835,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -12925,7 +12925,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -12950,7 +12950,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -13048,7 +13048,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -13073,7 +13073,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -13163,7 +13163,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -13188,7 +13188,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -13282,7 +13282,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -13307,7 +13307,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -13397,7 +13397,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -13422,7 +13422,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -13520,7 +13520,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -13545,7 +13545,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -13647,7 +13647,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -13672,7 +13672,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -13774,7 +13774,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -13799,7 +13799,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -13889,7 +13889,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -13914,7 +13914,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -14004,7 +14004,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -14029,7 +14029,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -14119,7 +14119,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -14144,7 +14144,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -14234,7 +14234,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -14259,7 +14259,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -14357,7 +14357,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -14382,7 +14382,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -14476,7 +14476,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -14501,7 +14501,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -14603,7 +14603,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -14628,7 +14628,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -14718,7 +14718,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -14743,7 +14743,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -14845,7 +14845,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -14870,7 +14870,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -14960,7 +14960,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -14985,7 +14985,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -15075,7 +15075,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -15100,7 +15100,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -15202,7 +15202,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -15227,7 +15227,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -15317,7 +15317,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -15342,7 +15342,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -15432,7 +15432,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -15457,7 +15457,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -15555,7 +15555,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -15580,7 +15580,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -15670,7 +15670,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -15695,7 +15695,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -15785,7 +15785,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -15810,7 +15810,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -15900,7 +15900,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -15925,7 +15925,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -16015,7 +16015,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -16040,7 +16040,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -16138,7 +16138,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -16163,7 +16163,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -16257,7 +16257,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -16282,7 +16282,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -16372,7 +16372,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -16397,7 +16397,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -16606,7 +16606,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -16631,7 +16631,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -16721,7 +16721,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -16746,7 +16746,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -16836,7 +16836,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -16861,7 +16861,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -16951,7 +16951,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -16976,7 +16976,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -17066,7 +17066,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -17091,7 +17091,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -17189,7 +17189,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -17214,7 +17214,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -17304,7 +17304,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -17329,7 +17329,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -17419,7 +17419,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -17444,7 +17444,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -17534,7 +17534,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -17559,7 +17559,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -17649,7 +17649,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -17674,7 +17674,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -17764,7 +17764,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -17789,7 +17789,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -17887,7 +17887,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -17912,7 +17912,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -18002,7 +18002,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -18027,7 +18027,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -18117,7 +18117,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -18142,7 +18142,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -18232,7 +18232,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -18257,7 +18257,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -18355,7 +18355,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -18380,7 +18380,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -18470,7 +18470,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -18495,7 +18495,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -18585,7 +18585,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -18610,7 +18610,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -18700,7 +18700,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -18725,7 +18725,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -18815,7 +18815,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -18840,7 +18840,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -18946,7 +18946,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -18971,7 +18971,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -19093,7 +19093,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -19118,7 +19118,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -19208,7 +19208,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -19233,7 +19233,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -19323,7 +19323,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -19348,7 +19348,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -19442,7 +19442,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -19467,7 +19467,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -19561,7 +19561,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -19586,7 +19586,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -19669,7 +19669,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -19694,7 +19694,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -19783,8 +19783,8 @@
         "TodofukenCode": "08",
         "ShikuchosonCode": "082015",
         "OazaCode": "847",
-        "ClassificationOfLandCodeName": "田",
-        "ClassificationOfLand": "1",
+        "ClassificationOfLandCodeName": "畑",
+        "ClassificationOfLand": "畑",
         "AreaOnRegistry": "3151",
         "SectionOfNoushinhouCodeName": "調査中",
         "SectionOfNoushinhou": "0",
@@ -19792,7 +19792,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -19907,7 +19907,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -20030,7 +20030,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -20145,7 +20145,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -20260,7 +20260,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -20379,7 +20379,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -20498,7 +20498,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -20625,7 +20625,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -20740,7 +20740,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -20855,7 +20855,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -20978,7 +20978,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -21097,7 +21097,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -21220,7 +21220,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -21335,7 +21335,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -21450,7 +21450,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -21565,7 +21565,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -21696,7 +21696,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -21819,7 +21819,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -21934,7 +21934,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -22049,7 +22049,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -22164,7 +22164,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -22279,7 +22279,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -22398,7 +22398,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -22423,7 +22423,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -22525,7 +22525,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -22640,7 +22640,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -22771,7 +22771,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -22890,7 +22890,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -23005,7 +23005,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -23128,7 +23128,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -23243,7 +23243,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -23358,7 +23358,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -23473,7 +23473,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -23592,7 +23592,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -23715,7 +23715,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -23834,7 +23834,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -23957,7 +23957,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -24080,7 +24080,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -24105,7 +24105,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -24195,7 +24195,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -24220,7 +24220,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -24310,7 +24310,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -24335,7 +24335,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -24425,7 +24425,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -24450,7 +24450,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -24540,7 +24540,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -24663,7 +24663,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -24778,7 +24778,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -24803,7 +24803,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -24893,7 +24893,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -24918,7 +24918,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -25016,7 +25016,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -25131,7 +25131,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -25156,7 +25156,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -25274,7 +25274,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -25299,7 +25299,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -25405,7 +25405,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -25430,7 +25430,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -25520,7 +25520,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -25545,7 +25545,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -25647,7 +25647,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -25672,7 +25672,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -25762,7 +25762,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -25787,7 +25787,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -25877,7 +25877,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -25902,7 +25902,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -26000,7 +26000,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -26025,7 +26025,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -26119,7 +26119,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -26144,7 +26144,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -26242,7 +26242,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -26267,7 +26267,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -26357,7 +26357,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -26382,7 +26382,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -26472,7 +26472,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -26497,7 +26497,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -26587,7 +26587,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -26612,7 +26612,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -26722,7 +26722,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -26747,7 +26747,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -26837,7 +26837,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -26862,7 +26862,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -26956,7 +26956,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -26981,7 +26981,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -27079,7 +27079,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -27104,7 +27104,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -27194,7 +27194,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -27219,7 +27219,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -27317,7 +27317,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -27342,7 +27342,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -27440,7 +27440,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -27465,7 +27465,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -27555,7 +27555,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -27580,7 +27580,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -27678,7 +27678,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -27703,7 +27703,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -27797,7 +27797,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -27822,7 +27822,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -27908,7 +27908,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -27933,7 +27933,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -28035,7 +28035,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -28060,7 +28060,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -28150,7 +28150,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -28175,7 +28175,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -28269,7 +28269,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -28388,7 +28388,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -28413,7 +28413,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -28511,7 +28511,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権",
         "KindOfRight": "5",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -28536,7 +28536,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 2,
         "reorganized": true
       },
       "geometry": {
@@ -28630,7 +28630,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -28761,7 +28761,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -28892,7 +28892,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -29015,7 +29015,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -29130,7 +29130,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -29155,7 +29155,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -29249,7 +29249,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -29274,7 +29274,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -29364,7 +29364,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -29824,7 +29824,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "newfarmer0",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -29939,7 +29939,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "newfarmer0",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -30033,7 +30033,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -30148,7 +30148,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer0",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -30173,7 +30173,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -30275,7 +30275,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -30398,7 +30398,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -30521,7 +30521,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -30644,7 +30644,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer0",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -30669,7 +30669,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -30763,7 +30763,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer0",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -30788,7 +30788,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -30878,7 +30878,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -30993,7 +30993,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "newfarmer0",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -31108,7 +31108,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -31227,7 +31227,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -31252,7 +31252,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -31342,7 +31342,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "newfarmer0",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -31453,7 +31453,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "newfarmer0",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -31572,7 +31572,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -31597,7 +31597,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -31691,7 +31691,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -31716,7 +31716,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -31814,7 +31814,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -31839,7 +31839,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -31929,7 +31929,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -31954,7 +31954,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -32052,7 +32052,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -32167,7 +32167,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -32192,7 +32192,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -32286,7 +32286,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer2",
+        "FarmerIndicationNumberHash": "newfarmer1",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -32311,7 +32311,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 5,
+        "cluster": 4,
         "reorganized": true
       },
       "geometry": {
@@ -32405,7 +32405,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -32430,7 +32430,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -32524,7 +32524,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "newfarmer0",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -32647,7 +32647,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer0",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -32672,7 +32672,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -32782,7 +32782,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "自ら耕作したい",
         "OwnerFarmIntention": "5",
-        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
+        "FarmerIndicationNumberHash": "newfarmer0",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -32909,7 +32909,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -32934,7 +32934,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -33032,7 +33032,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -33057,7 +33057,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -33151,7 +33151,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "newfarmer0",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -33176,7 +33176,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 6,
+        "cluster": 1,
         "reorganized": true
       },
       "geometry": {
@@ -33282,7 +33282,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer1",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -33307,7 +33307,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 4,
+        "cluster": 3,
         "reorganized": true
       },
       "geometry": {
@@ -33401,7 +33401,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "7db8af145bda49552f855ba395906a2f",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -33541,7 +33541,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -33631,7 +33631,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -33656,7 +33656,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 8,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -33779,7 +33779,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -33902,7 +33902,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -34029,7 +34029,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -34144,7 +34144,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -34259,7 +34259,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -34374,7 +34374,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -34489,7 +34489,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -34870,7 +34870,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -34997,7 +34997,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 7,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -35095,7 +35095,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -35120,7 +35120,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -35222,7 +35222,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -35247,7 +35247,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -35349,7 +35349,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -35374,7 +35374,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -35730,7 +35730,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer0",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -35755,7 +35755,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -35905,7 +35905,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer0",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -35930,7 +35930,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -36036,7 +36036,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "newfarmer0",
+        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -36061,7 +36061,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 3,
+        "cluster": 0,
         "reorganized": true
       },
       "geometry": {
@@ -36159,7 +36159,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -36184,7 +36184,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -36274,7 +36274,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -36299,7 +36299,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -36397,7 +36397,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "賃借権等の設定がない",
         "KindOfRight": "0",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -36422,7 +36422,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
@@ -36512,7 +36512,7 @@
         "SectionOfToshikeikakuhou": "2",
         "OwnerFarmIntentionCodeName": "非公表",
         "OwnerFarmIntention": "999",
-        "FarmerIndicationNumberHash": "2dacba93d45b0f46a25b29b985bd90e2",
+        "FarmerIndicationNumberHash": "10aad9b486abee43973bb555cc3362c2",
         "KindOfRightCodeName": "使用貸借権",
         "KindOfRight": "4",
         "RightSettingContentsCodeName": "農地中間管理権が設定されていない",
@@ -36537,7 +36537,7 @@
         "Settlement_name": "筑地",
         "Settlement_pref": "茨城県",
         "Settlement_city": "水戸市",
-        "cluster": 9,
+        "cluster": 5,
         "reorganized": true
       },
       "geometry": {
