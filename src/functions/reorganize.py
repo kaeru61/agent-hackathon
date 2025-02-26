@@ -9,6 +9,7 @@ from shapely.geometry import MultiPolygon, Polygon
 import pandas as pd
 from sklearn.cluster import DBSCAN
 from scipy.spatial import KDTree
+from functions.cost_analyzer import AnalysisResult, run_analysis
 
 
 
@@ -23,7 +24,7 @@ class Scenario:
 def reorganize(
     geojson_data: Dict[str, Any],
     scenario: Scenario
-) -> Dict[str, Any]:
+) -> Tuple[Dict[str, Any], AnalysisResult]:
     """農地データを再編成する
 
     Args:
@@ -31,7 +32,7 @@ def reorganize(
         scenario (Scenario): 再編成のシナリオ
 
     Returns:
-        Dict: 再編成後のGeoJSONデータ
+        Tuple[Dict[str, Any], AnalysisResult]: 再編成後のGeoJSONデータ、コスト分析結果
     """
     # GeoDataFrameを作成
     gdf = gpd.GeoDataFrame.from_features(geojson_data)
@@ -76,6 +77,9 @@ def reorganize(
     hata_gdf_poly = hata_gdf_poly.to_crs(epsg=4326)
     hata_gdf_multipoly = hata_gdf_multipoly.to_crs(epsg=4326)
 
+    # コスト分析結果をgdfに格納(現在はpolyのみ)
+    result, ta_gdf_poly, hata_gdf_poly = _excute_analysis(gdf, ta_gdf_poly, hata_gdf_poly, scenario.existing_farmer_ids)
+
     # GeoJSONデータに変換
     # geojson_data = {
     #     "type": "FeatureCollection",
@@ -86,7 +90,7 @@ def reorganize(
         "type": "FeatureCollection",
         "features": list(ta_gdf_poly.__geo_interface__["features"]) + list(hata_gdf_poly.__geo_interface__["features"])
     }
-    return poly_geojson_data
+    return poly_geojson_data, result
 
 def _create_tahata_gdf(
     gdf: gpd.GeoDataFrame,
@@ -359,6 +363,35 @@ def _put_new_farmers(
 
     return gdf_poly, gdf_multipoly
 
+def _excute_analysis(
+    gdf: gpd.GeoDataFrame,
+    reorg_ta_gdf: gpd.GeoDataFrame,
+    reorg_hata_gdf: gpd.GeoDataFrame,
+    existing_farmer_ids: list[str]
+) -> Tuple[AnalysisResult, gpd.GeoDataFrame, gpd.GeoDataFrame]:
+    """コスト分析を実行する
+
+    Args:
+        gdf (gpd.GeoDataFrame): GeoDataFrame
+        reorg_ta_gdf (gpd.GeoDataFrame): 最適化後の田のGeoDataFrame
+        reorg_hata_gdf (gpd.GeoDataFrame): 最適化後畑のGeoDataFrame
+        existing_farmer_ids (list[str]): 既存農家のIDリスト
+
+    Returns:
+        Tuple[AnalysisResult, gpd.GeoDataFrame, gpd.GeoDataFrame]: コスト分析結果、最適化後の田のGeoDataFrame、最適化後の畑のGeoDataFrame
+
+    """
+    # コスト分析を実行
+    result = run_analysis(gdf, existing_farmer_ids)
+    # existing_farmer_idsに記載されている農家のコスト分析結果を反映
+    for farmer_id in existing_farmer_ids:
+        reorg_ta_gdf.loc[reorg_ta_gdf["FarmerIndicationNumberHash"] == farmer_id, "worktime_reduced"] = result.farmers_worktime_reduced[farmer_id]
+        reorg_ta_gdf.loc[reorg_ta_gdf["FarmerIndicationNumberHash"] == farmer_id, "fuel_cost_reduced"] = result.farmers_fuel_cost_reduced[farmer_id]
+        reorg_hata_gdf.loc[reorg_hata_gdf["FarmerIndicationNumberHash"] == farmer_id, "worktime_reduced"] = result.farmers_worktime_reduced[farmer_id]
+        reorg_hata_gdf.loc[reorg_hata_gdf["FarmerIndicationNumberHash"] == farmer_id, "fuel_cost_reduced"] = result.farmers_fuel_cost_reduced[farmer_id]
+
+    return result, reorg_ta_gdf, reorg_hata_gdf
+
 
 class _PartitionModel:
     def __init__(self, gdf: gpd.GeoDataFrame, partition_count: int):
@@ -455,7 +488,7 @@ if __name__ == "__main__":
         ta_arearates=[0.3, 0.2, 0.2, 0.1, 0.1, 0.1],
         hata_arearates=[0.3, 0.2, 0.2, 0.1, 0.1, 0.1]
     )
-    test_reorganized_geojson = reorganize(geojson_data, scenario)
+    test_reorganized_geojson, result = reorganize(geojson_data, scenario)
     # 新しいGeoJSONを保存
     new_geojson_data = {
         "type": "FeatureCollection",
@@ -471,3 +504,7 @@ if __name__ == "__main__":
 
     with open("test_reorganized.geojson", "w") as f:
         json.dump(new_geojson_data, f, ensure_ascii=False)
+
+    print("最適化前のリソースシミュレーション結果:")
+    print(json.dumps(result.__dict__, indent=2, ensure_ascii=False))
+    print("\n")
