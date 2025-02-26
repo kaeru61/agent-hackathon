@@ -1,3 +1,4 @@
 backup/
-map-reorg.geojson
-map.geojson
+
+./map-reorg.geojson
+./map.geojson
